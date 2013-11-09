@@ -1,0 +1,41 @@
+
+.mobile-nav {display: none;}
+
+
+
+nav {
+	li {
+		float: left;
+		text-align: center;
+		background: none;
+		box-shadow: none;
+		border:  none;
+		border-right: 1px solid $red;
+		width: 20%;
+		height:35px;
+		a {
+			width: 100%;
+			padding: 0.8em 0;
+			font-size: 0.85em;
+			color: $pale;
+			line-height: 1em;
+		}
+		}
+	li:last-of-type {
+		border-right:none;
+	}
+}
+
+
+/* RESOURCES */
+
+.resource-thumbnail {
+		width: 48%;
+		float:right;
+		margin-left:2%;
+}
+
+dl, .resource-description {
+	width: 45%;
+	margin-right: 2%;
+}

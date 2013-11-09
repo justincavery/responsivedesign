@@ -1,0 +1,141 @@
+
+
+#rwdis {width: 34%;}
+/* Bring in the colums to appear like 1024 max pixels  */
+
+.section {padding: 0 5%;}
+
+.home-cta, .rwd-sections, .starting-rwd, .footer-dark {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+/* Four Columns */
+.rwd-sections .section-box, .moar-content {
+	width: 22.05%;
+}
+.rwd-sections .section-box:nth-child(2n){
+		margin-right:3.8%;
+}
+
+.rwd-sections .section-box:nth-child(4n), .moar-content:nth-child(4n) {
+		margin-right:0;
+}
+
+.footer{
+	padding: 0.45em 8em;
+}
+
+/* Six Columns */.six {
+	width: 48%;
+}
+
+
+
+.tweet h2 {
+	float: none;
+	width: 100%;
+	font-size: 2em;
+}
+.subscribe h2 {
+	font-size: 2em;
+	margin-top: 0;
+}
+.footer-dark {
+	padding-top:1em;
+}
+
+.footer-dark  .moar-content {
+	padding: 0;
+	border-bottom:0;
+	h2 {
+		font-size:1.5em;
+	}
+	h3 {font-size: 1.1em;}
+	p, .read-more {
+		font-size:1em;
+		line-height:1.3em;
+		letter-spacing: 0;
+	}
+	.read-more{
+	}
+}
+
+.contact ul li {
+	font-size: 0.8em;
+}
+article {
+	margin-right: 1.7857142857%;
+	width: 57.5892857143%;
+	float:left;
+}
+
+/*Resources */
+p.lead + p {clear:both;}
+
+
+.related-lists {
+	width: 15.1785714286%;
+	float:left;
+	margin:2em 0 0;
+}
+
+
+/* REMOVE THIS AFTERWARDS */
+.row .onecol {
+width: 4.85%;
+}
+
+.row .twocol {
+width: 13.45%;
+}
+
+.row .threecol {
+width: 22.05%;
+}
+
+.row .fourcol {
+width: 30.75%;
+}
+
+.row .fivecol {
+width: 39.45%;
+}
+
+.row .sixcol {
+width: 48%;
+}
+
+.row .sevencol {
+width: 56.75%;
+}
+
+.row .eightcol {
+width: 65.4%;
+}
+
+.row .ninecol {
+width: 74.05%;
+}
+
+.row .tencol {
+width: 82.7%;
+}
+
+.row .elevencol {
+width: 91.35%;
+}
+
+.row .twelvecol {
+width: 100%;
+float: left;
+}
+
+.last {
+margin-right: 0px;
+}
+/* REMOVE THIS AFTERWARDS */
+
+
+
+  	.show-on-small {display: none;}

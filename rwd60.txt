@@ -1,0 +1,66 @@
+
+Today we feature some great articles.  One of them is about taking responsive design the next step and providing contextual/responsive information to the user, for example based on the time of day. People are quick to dismiss this because we don't have a full grasp as to what that particular user is doing at that particular time, so how dare we try and guess and provide content around that scenario.  The fact is, our whole website is one big content guess about what the user is looking for and trying to achieve.  
+
+The thing that we need to look out for is keeping our content consistent for returning users, because on returning at another time of day I will expect to find the same information that was there in the morning. If it's gone then a sensible user journey needs to be available for the user to find that content again.  Food for though though.
+
+++++
+HEADLINE
+++++
+
+Designing for Breakpoints · An A List Apart Article 
+http://alistapart.com/article/designing-for-breakpoints
+When thinking about major breakpoints, remember to think about device classes. If you’re thinking about smartphones, tablets, laptops/desktops, TVs, and game consoles, for example, you’re heading in the right direction.
+
+
+
+=======
+ARTICLE
+=======
+
+The development of responsive design 
+http://www.bloomagency.co.uk/what-you-want-when-you-want-it-the-development-of-responsive-design/
+Taking a look at how to bring context into responsive design 2.0, displaying content to a user based on what they most likely are to be looking to find.
+
+
+Publishers are charging forward with responsive design – now it’s time for advertisers to catch up
+http://pandodaily.com/2013/06/04/publishers-are-charging-forward-with-responsive-design-now-its-time-for-advertisers-to-catch-up/
+The advertising industry has so far struggled to keep pace with the needs of a responsive Web world. An early stop-gap solution has involved simply switching in ad units of varying sizes depending on where they’re viewed.
+
+You Decide: Whitney's "Responsive" Logo - Print Magazine 
+http://www.printmag.com/editors-picks/you-decide-is-this-a-logo/
+Forget breakpoints and viewports for resizing and reflowing content, now we're looking at responsive logos that change shape depending on the canvas size. There's some interesting reasoning behind the approach... check it out.
+
+Structuring And Serving Styles For Older Browsers
+http://seesparkbox.com/foundry/structuring_and_serving_styles_for_older_browsers
+You’re probably aware that not all browsers support media queries. IE8 and below (plus a few other older browsers) simply can’t see styles that are cloaked in media queries. If we build a responsive site from small size up, these browsers will download all of our styles, but they will only be able to comprehend the stuff outside of media queries. If your project calls for a good experience in these browsers (many projects nowadays still do), this won’t work. You’re going to need a way to serve up these styles in a way that these elderly browsers can digest. The team at See Spark Box put their heads together to come up with a solution.
+
+Responsive News — Response-ish Web Design 
+http://responsivenews.co.uk/post/51567651162/response-ish-web-design
+Two BBC News codebases are not better than one. But until the responsive site is finished the desktop site can’t be retired. Read on to find out how Responsive Web Design is being used to keep both sites up to date.
+
+Three Reasons We’ve Outgrown Mobile Context :: UXmatters 
+http://www.uxmatters.com/mt/archives/2013/06/three-reasons-weve-outgrown-mobile-context.ph…
+UX matters explain why they have gone away from a mobile site offering a snippet of the information and embraced the RWD solution
+
+On ems and rems | Filament Group, Inc., Boston, MA 
+http://filamentgroup.com/lab/on_ems_and_rems
+This article is from last year but it somehow slipped through the net. It's a great counter point on my suggestion last week to move from ems to using rems.
+
+======
+
+IMAGES
+
+======
+
+Interchange - Foundation 4 - ZURB Playground - ZURB.com 
+http://zurb.com/playground/foundation-interchange
+Interchange uses media queries to load the images that are appropriate for a user's browser, making responsive images a snap. It decreases the load times for mobile users while still serving the bigger content to your visitors with higher screen resolutions.
+
+The Raster Image Paradox – David Bushell – Web Design & Front-end Development 
+http://dbushell.com/2013/06/03/the-raster-image-paradox/
+Even at the possible expense of wasted bandwidth and low definition — heck, even up-scaling — this introduces less complexity and concern than any “responsive/adaptive image” technique seen to-date. They’re all hacks. They all break things.
+
+
+Clown Car Technique: Solving Adaptive Images In Responsive Web Design 
+http://coding.smashingmagazine.com/2013/06/02/clown-car-technique-solving-for-adaptive-images-in-responsive-web-design/
+By including media queries and image tags within an SVG file you can effectively solve the RWD image issues... but then you're serving svg images for everything. In this article Estelle Weyl goes deep into the possible solutions.

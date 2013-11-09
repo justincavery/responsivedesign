@@ -1,0 +1,118 @@
+	.wrapper {
+		width: 100%;
+	}
+
+.header > header {
+	margin: 0 auto;
+  		width: 100%;
+  		padding:0 2%;
+  		/*max-width: 1024px;*/
+  		background-size: 38px 155px;
+  	}
+
+
+  	.search {
+	position: absolute;
+	top: 0em;
+	right: 0%;
+	width: 58%;
+	padding: 0.25em 1em;
+}
+
+
+
+.resources .button {
+	font-size: 1.4375em;
+}
+
+.home-slider,.section-box, .tweet, .rwd-sections .section-box:nth-child(2n), .moar-content {
+margin-right: 3.8%;
+float: left;
+min-height: 1px;
+}
+
+
+.home-slider, .news-listing {
+	min-height: 300px;
+}
+
+/* Seven Columns */
+.home-slider, .tweet {
+	width: 56.75%;
+	float: left;
+}
+.home-cta span {
+	float:left;
+	width: 100%;
+}
+
+.home-slider {
+	padding: 0 1em;
+	border: 5px solid $paleborder;
+	margin-top:0;
+	}
+
+
+/* Five Columns */
+.news-listing, .subscribe {
+	width: 39.45%;
+	float:left;
+}
+
+.subscribe, .news-listing {
+		border-left: 1px solid $paleborder;
+	padding-left: 5%;
+
+}
+
+.news-listing {
+	border-top: none;
+	padding-top:0;
+	 h2 { border-top: 8px solid $pale;
+	 	margin-top:0;}
+	 h3 {
+	 	font-size: 0.9em;
+	 }
+}
+
+.section {
+	margin:0 auto;
+	width: 100%;
+	padding:0 2%;
+	max-width: 1600px;
+}
+
+.home-cta, .rwd-sections, .starting-rwd, .footer-dark {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.content {
+	width: 100%;
+	max-width: 1140px;
+	float:none;
+}
+
+.home .content {
+	max-width:none;
+}
+
+.section-box {
+	p{
+font-size: 1em;
+}
+h2 {
+	padding-top:0.45em;
+}
+}
+.rwd-sections .section-box {
+		margin-right: 3.8%;
+		float: left;
+		min-height: 1px;
+}
+.rwd-sections .section-box {
+		width: 48%;
+}
+.rwd-sections .section-box:nth-child(2n){
+		margin-right:0;
+}

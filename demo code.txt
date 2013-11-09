@@ -1,0 +1,13 @@
+$darkgrey: #333333;
+p { color: $darkgrey;}
+
+nav {		width: 100%;
+	ul { list-style-type: none;
+	li { float: left;
+		div { border: 1px solid  #333; 
+				img { width: 100%;
+					}
+				}
+			}
+}
+}

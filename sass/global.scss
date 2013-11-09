@@ -1,0 +1,1200 @@
+@import "normalise";
+@import "bits";
+@import "rounded";
+@import "typography";
+@import "compass/css3";
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body{
+	width:100%;
+	&.home {
+	background: $light-bg-texture;
+	}
+}
+
+a {color: $red;
+	text-decoration:none;
+	}
+
+
+/*	--------------------------------------------------
+	:: Tables
+	-------------------------------------------------- */
+	table { background: #fff; -moz-border-radius: 3px; -webkit-border-radius: 3px; width: 100%; margin: 0 0 18px; border: 1px solid #ddd;  }
+
+	table thead { background: #f5f5f5; }
+	table thead tr th,
+	table tbody tr td { font-size: 12px; line-height: 18px; text-align: left; }
+	table thead tr th { padding: 8px 10px 9px; font-size: 14px; font-weight: bold; color: #222; }
+	table thead tr th:first-child { border-left: none; }
+	table thead tr th:last-child { border-right: none; }
+
+	table thead tr {  }
+	table tbody {  }
+	table tbody tr {  }
+	table tbody tr.even,
+	table tbody tr.alt { background: #f9f9f9; }
+	table tbody tr:nth-child(even) { background: #f9f9f9; }
+	table tbody tr td { color: #333; padding: 9px 10px; vertical-align: top; border: none; }
+
+/*	Blockquotes  */
+	blockquote, blockquote p {  }
+	blockquote { padding: .5em 1.2em 0 1.2em; }
+	blockquote cite { display: block; font-size: 0.8em; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited { color: #555; }
+	blockquote p:last-of-type { margin-bottom: 0;}
+/*	Forms  */
+input, button {
+	font-family: $roboto;
+	text-transform: uppercase;
+}
+
+
+input, input[type="search"] {
+		height: 2em;
+		background-color: #fff;
+		@include rounded(top-left, 5px);
+		@include rounded(bottom-left, 5px);
+		border:0px;
+		float:left;
+		color:#7e7e7e;
+		padding: 0 5px;
+		box-shadow: inset 1px 1px 3px #CCC;
+	}
+button {
+		float:left;
+		background-color:$pale;
+		@include rounded(top-right, 5px);
+		@include rounded(bottom-right, 5px);
+		height: 2em;
+		border:0px;
+	}
+
+img, figure, video, audio, embed {
+	width: 100%;
+	max-width: 100%
+}
+
+article a[href^=http] {
+	background: transparent url(../external.svg) right top no-repeat;
+	background-size: 10px;
+	padding-right:0.5em;
+	}
+
+code  a[href^=http] {
+	background:none;
+}
+
+@import "grid";
+
+.header {
+	margin: 0 auto 1em;
+	width: 100%;
+	background-image: url(../images/background-header-texture-mobile.png);
+	background-repeat: repeat;
+	float:left;
+	width: 100%;
+	background-size: 38px 133px;
+	min-height: 134px;
+/*@include breakpoint (tablet){
+		height: 170px;
+		padding-bottom:1em;}*/
+}
+
+.header header {
+}
+
+.rwd-sections {
+	background-color: $pale;
+	a {
+		border-bottom: 1px solid rgba(204, 78, 70, 0.5);
+	}
+}
+.section {
+	float:left;
+}
+
+#logo {
+	text-indent: -99999px;
+	background-image: url(../images/logo.png);
+	background-size: 120px;
+	background-repeat: no-repeat;
+	width: 35.94%;
+	margin: 15px 0.25em 3px;
+	height: 75px;
+	float:left;
+	@include breakpoint(phablet){
+		background-size: 132px;
+		height: 75px;
+		width: 26.54%;}
+	@include breakpoint(tablet){
+		background-position:0 -108px;
+		height: 83px;
+		margin-top:6px;
+		background-size: 155px;}
+	@include breakpoint(laptop){
+		background-position: 0 -203px;
+		float:none;}
+}
+/* Do the SVG Logo at the end, add .no-svg to the rules above
+#logo {
+	width: 35.94%;
+	margin: 15px 0.25em 3px;
+	float:left;
+	@include breakpoint(phablet){
+		width: 10.04%;
+		height:75px;}
+	@include breakpoint(tablet){
+}
+	@include breakpoint(laptop){
+		float:none;}
+}
+*/
+
+#rwdis {
+	position:absolute;
+	width: 100%;
+	padding: 0;
+	font-family: $roboto;
+	letter-spacing: -0.05em;
+	font-size: 1.3em;
+	text-align: center;
+	a {
+	color: #f2f0e0;
+	font-size: 1.17em;
+	text-shadow: 0px -1px 1px #040404;
+	text-align: right;
+	}
+	@include breakpoint(phablet){
+		font-size:2em;
+	}
+	@include breakpoint(tablet){
+		position: initial;
+		float:right;width:61%;text-align: right;padding:0 1em; margin-top: 5px;
+	}
+	@include breakpoint(laptop){
+		text-align:left;position:relative; width: 69%; font-size:1.3em; left:0; float:left;top:6px;
+	}
+	}
+
+header .search {
+		float:right;
+		width: 60%;
+	}
+.advanced-rwd .search {
+	float:left;
+	position: relative;
+}
+.search {
+	width: 50%;
+	padding: 0.25em 0 0.25em 0.7em;
+	margin-top:46px;
+	font-family: $roboto;
+			input {
+				width: 60%;
+				border-right: 1px solid #a38a89;
+						@include rounded(top-right, 0px);
+						@include rounded(bottom-right, 0px);
+			}
+			button {
+				width:25%;
+				color:$red;
+				background-repeat: no-repeat;
+				background-position: 2px 7px;
+				span[data-icon]::before {color:$red;}
+
+			}
+	@include breakpoint(phablet){width:71%;}
+}
+
+.mobile-nav {
+	display: block;
+	float:right;
+	margin-right: 5%;
+	height: 2em;
+	text-transform: uppercase;
+		a {color:$pale;}
+	}
+
+@include breakpoint(mobileonly){
+nav {display:none;}
+nav.nav-toggle {display:block;margin-top:16px;}
+.mobile-nav {
+	display:block;
+	float:left;
+	height:44px;
+	margin:0;
+	text-transform: uppercase;
+	width:100%;
+}
+
+.mobile-nav a {
+	margin-top: 13px;
+	display: block;
+	width:100px;
+}
+
+.mobile-nav a.toggle-menu {
+	float:right;
+}
+
+.mobile-nav a.toggle-subnav {
+	float:left;
+	margin-left: 1.25em;
+}
+}
+
+nav {
+	@include transition(all,.2s,ease);
+	float:left;
+	width: 100%;
+	@include breakpoint(tablet){	width: 100%;
+	padding: 0.25em 1em;
+	float:none;
+	margin: 0 auto;}
+	@include breakpoint(laptop){width: 65%;float:right;}
+	ul { list-style-type: none;
+		border-bottom: 1px solid rgba(154,56,43, 0.95);
+		@include breakpoint (phablet) {float:right;width: 100%;border-bottom: none;margin: 0.25em 0;}
+		@include breakpoint (laptop) {margin: 0;}
+	}
+	li {
+		text-align: center;
+		text-transform: uppercase;
+		background-color: #f6f1ea;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(246, 241, 234)),to(rgb(227, 220, 211)));
+		background-image: -webkit-linear-gradient(top, rgb(246, 241, 234), rgb(227, 220, 211));
+		background-image: -moz-linear-gradient(top, rgb(246, 241, 234), rgb(227, 220, 211));
+		background-image: -o-linear-gradient(top, rgb(246, 241, 234), rgb(227, 220, 211));
+		background-image: -ms-linear-gradient(top, rgb(246, 241, 234), rgb(227, 220, 211));
+		background-image: linear-gradient(top, rgb(246, 241, 234), rgb(227, 220, 211));
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f6f1ea', EndColorStr='#e3dcd3');
+		@include breakpoint(phablet) {
+			background-color:none;
+			background-image: none;
+			filter:none;
+		}
+		box-shadow: 0px -1px 1px rgba(154,56,43, 0.75);
+		border-bottom: 1px solid rgba(154,56,43, 0.45);
+	/*	@include breakpoint(tablet) {box-shadow: none; border-bottom: none;}*/
+		a {
+			display: block;
+			line-height:2.5em;
+			width: 100%;
+		}
+	}
+}
+
+
+
+.home-slider {
+	color: $pale;
+	background: $dark-bg-texture;
+	overflow: hidden;
+	width: 95%;
+	margin: 1em auto;
+	border: 5px solid $paleborder;
+	box-shadow: 0 0 5px rgba(0,0,0,.25);
+	ul {list-style-type: none;}
+	h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size:1.6em;
+	padding: 0 0.2em;
+	margin-top: 0.25em;
+	margin-bottom:0.25em;
+	color: $pale;
+		span {
+			display:block;
+			font-size:1em;
+		}
+}
+	p {
+		font-family: $museo;
+		font-style: italic;
+		font-weight: 300;
+		letter-spacing: 0.08em;
+		border-top: 1px solid $pale;
+		margin-top:0;
+		padding-top: 0.25em;
+		color: $pale;
+
+	}
+	article {
+		padding: 0 .5em;
+		width: 100%;
+	}
+}
+
+.news-listing {
+	float:left;
+	width:100%;
+	padding: 0.25em 1em 1em 1em;
+	color:$pale;
+	@include breakpoint(tablet){
+		padding:0.25em 0;
+		border-top: 8px solid $paleborder;
+}
+		h2 {
+			color:$pale;
+			padding-top: 0.25em;
+		}
+		ul {
+			list-style-type: none;
+			margin-bottom: 1em;
+			/* This may need to be added into
+			the styles
+			li { margin-bottom:1em;}
+			end this may need to be added */
+		}
+		h3 {
+			text-transform: uppercase;
+			margin-bottom: 0;
+			font-size: 1.1em;
+			font-weight: 600;
+			a { color:$pale;
+				}
+		}
+		date {
+			font-size: .8em;
+
+		&:before {
+			content: "- ";
+		}
+	}
+}
+
+
+
+
+@import "search";
+.home-cta span.cta-white {
+	color:$blockquote-color;
+}
+
+
+.home-cta {
+	float:left;
+	width: 100%;
+	padding:.25em 1em;
+	padding-top: 1em;
+	a {
+		h2 {
+		display: block;
+		width: 100%;
+		border-radius: 15px;
+		background-color: $red;
+		@include gradient(linear,top,rgb(214, 66, 70),rgb(194, 60, 63),'left top, left bottom');
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#d64246', EndColorStr='#c23c3f');		color: $pale;
+		font-size: 1.8em;
+		text-transform: uppercase;
+		padding: .35em 1em .2em 1em;
+		font-family: $roboto;
+		text-align: center;
+		text-shadow: 0px -1px 1px #333;
+			}
+		}
+	span {
+		padding: 1em;
+		font-family: $museo;
+		font-style: italic;
+		color:$pale;
+		font-size: 1.4em;
+		display: block;
+		letter-spacing: .1em;
+		@include breakpoint(mobileonly){
+			padding-top: 0.5em;
+			border-top: 2px solid;
+		}
+	}
+}
+
+.rwd-sections {
+	box-shadow:0px -1px 2px rgba(0,0,0, 0.25);
+	float:left;
+	width: 100%;
+	padding: 1em;
+}
+.tweet, .subscribe, .section-box {
+	width: 100%;
+	float:left;
+
+}
+
+.homepage-quote {
+	line-height: 1.6em;
+	margin: 0 0 2em 0;
+	border-top: 0;
+	}
+
+
+.section-box {
+	background-color: #d0cdc4;
+	width: 100%;
+	margin-bottom:1em;
+	color:#333;
+	font-family: $museo;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+		h2 {
+			text-align: center;
+			margin: 0;
+			text-shadow:none;
+			font-size: 2.3em;
+			padding: 0.5em 0 0;
+			span {font-size:0.3em;display:block;}
+		}
+		p {
+			font-style: italic;
+			font-size: 1.1em;
+			text-align: center;
+			margin-top: 0.25em;
+			padding: 0 1em;
+			letter-spacing: 0.1em;
+		}
+		.button {
+			border-top-left-radius: 0px;
+			border-top-right-radius: 0px;
+		}
+}
+
+/* Three Columns */
+.starting-rwd .section-box {
+	@include breakpoint (tablet){
+	width: 30.75%;
+	&:nth-child(3n) {
+		margin-right:0;
+	}
+	}
+}
+
+
+
+
+
+
+.button {
+			height:1.8em;
+			line-height: 1.8em;
+			text-transform: uppercase;
+			text-align: center;
+			font-family: $roboto;
+			display: block;
+			border-radius: 10px;
+			font-weight: 600;
+			width: 100%;
+			@include transition(all,0.5s,ease);
+			}
+.button:after {
+			position:relative;
+			content: " >>";
+			font-size: 0.8em;
+			top: -0.15em;
+		}
+.button.light {
+			background-color: #f6f1ea;
+			@include gradient(linear,top,rgb(246, 241, 234),rgb(227, 220, 211),'left top, left bottom');
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f6f1ea', EndColorStr='#e3dcd3');
+			border-bottom: 1px solid rgba(208,205,196, 0.9);
+			color: $red;
+			&:hover {
+				background-color: $red;
+			@include gradient(linear,top,rgb(214, 66, 70),rgb(194, 60, 63),'left top, left bottom');
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#d64246', EndColorStr='#c23c3f');
+			color: $pale;
+			border-bottom: 1px solid rgba(176,61,55, 0.9);
+			}
+		}
+
+.button.dark {
+			background-color: $red;
+			@include gradient(linear,top,rgb(214, 66, 70),rgb(194, 60, 63),'left top, left bottom');
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#d64246', EndColorStr='#c23c3f');
+			color: $pale;
+			border-bottom: 1px solid rgba(176,61,55, 0.9);
+			&:hover {
+				background-color: #f6f1ea;
+			@include gradient(linear,top,rgb(246, 241, 234),rgb(227, 220, 211),'left top, left bottom');
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f6f1ea', EndColorStr='#e3dcd3');
+			border-bottom: 1px solid rgba(208,205,196, 0.9);
+			color: $red;
+			}
+		}
+
+//.light {
+//	color: $pale;
+//}
+
+.starting-rwd {
+	float:left;
+	width:100%;
+	background-color: #EDE6DC;
+	padding:1em;
+}
+
+footer {
+	float:left;
+	}
+
+.tweet {
+	float:left;
+	padding:1.25em 1em;
+	span.logo {
+		text-indent: -99999px;
+		background-image: url(../images/rwd-sprite.png);
+		background-size:300px;
+		display:block;
+		width: 20%;
+		max-width: 80px;
+		height: 80px;
+		float:left;
+	}
+
+	h2 {
+		font-weight: 300;
+		margin-top: .25em;
+		margin-top:0;
+		float:right;
+		letter-spacing: .1em;
+		width: 75%;
+		font-size: 1.6em;
+		color: $pale;
+		span {
+			text-transform: lowercase;
+		}
+		a {color: $pale;}
+	}
+	p {clear:left; text-align: left;}
+	p {font-weight:500;}
+	date {
+	font-style: italic;}
+	p, date {
+	font-family: $museo;
+	color:$pale;
+	letter-spacing: 0.1em;
+}
+	date {
+		float:right;
+	}
+}
+
+.subscribe {
+	clear:right;
+	float:left;
+	padding:0.25em 1em 2em;
+	h2 {
+		color: $pale;
+		text-align:center;
+		font-size: 1.4em;
+		padding-bottom:.25em;
+		margin-top: 0;
+		@include breakpoint(tablet){
+			border-bottom: 3px solid #eaddce;
+			box-shadow: 0 1px 0 rgba(243,241,225,.5);
+}
+	}
+	p {
+		color: $pale;
+		font-family: $museo;
+		font-style: italic;
+		letter-spacing: 0.1em;
+		font-size: 0.8em;
+		font-weight: 100;
+
+	}
+	input {
+		width: 72%;
+		border-right: 1px solid #a38a89;
+		padding-left: 1em;
+
+	}
+	button {
+		width:27%;
+		color: $red;
+	}
+}
+
+@include breakpoint(tablet){
+	.tweet, .subscribe {
+	box-shadow: none;
+	border-bottom: none;
+	margin-top: 1.6em;
+	padding-top:0;
+}}
+
+.footer {
+	background: url(../images/background-light-texture.jpg) repeat;
+	float:left;
+	padding-bottom: 1em;
+	width:100%
+}
+.footer-dark {
+	background: $dark-bg-texture;
+	padding:0.25em 1em;
+	float:left;
+	color: $pale;
+		p, .read-more  {color:$palefootertext;}
+		.moar-content {
+				float:left;
+				padding: 0.25em 1em;
+				border-bottom: 2px solid $pale;
+}
+}
+
+
+.contact {
+		ul {
+			list-style-type: none;
+			li {
+				text-transform: uppercase;
+				font-size: 1.2em;
+				margin-bottom:.75em;
+			a {
+				color:$pale;
+			}
+			}
+		}
+
+}
+
+footer .moar-content {
+	padding-bottom: 1em;
+	width: 100%;
+	@include breakpoint(tablet) {
+		width: 48%;
+		&:nth-child(2){
+			margin-right: 0;
+		}
+	}
+	@include breakpoint(laptop) {
+		width: 25%;
+	}
+	h2 {
+		font-size:2.1em;
+		margin: 0.25em 0;
+		color: $pale;
+		font-weight:300;
+	}
+	h3 {
+		margin: 0.25em 0;
+		font-size: 1.6em;
+	}
+	p, .read-more  {
+		font-family: $museo;
+		margin-top:.2em;
+		letter-spacing: 0.05em;
+	}
+	.read-more {
+		float:right;
+		font-style: italic;
+	}
+	.read-more:after {
+		content: " >>";
+		font-size: 0.6em;
+		letter-spacing: -.15em;
+	}
+}
+
+footer .social {
+					margin: 0 auto;
+					border-bottom: none;
+	.facebook {
+		background-position: -77px 0px;
+		}
+	.twitter {
+		background-position: -127px 0px;
+	}
+	.rss {
+		background-position: -178px 0px;
+
+	}
+			ul {
+				list-style-type: none;
+				width: 100%;
+				margin-bottom: 1em;
+				li {
+					display:inline-block;
+					width: 30%;
+					padding: 0 1.5%;
+					 a {
+						text-indent: -99999px;
+						float:left;
+						width: 50px;
+						height: 50px;
+						background-image: url(../images/rwd-sprite.png);
+						background-size:300px;
+					}
+				}
+			}
+	p {
+		font-style: italic;
+		letter-spacing: 0.1em;
+		font-size: 0.8em;
+		font-weight: 100;
+
+		span{
+
+		}
+	}
+}
+
+
+/* === BREADCRUMBS ===*/
+
+ul.breadcrumbs {
+	float:right;
+	clear:right;
+	text-transform: uppercase;
+	font-size: 0.93em;
+	margin: 0.25em 3% 0.5em 1em;
+	@include breakpoint(tablet){}
+		li:first-child:after{content:"";}
+		li span {margin-top:2px;}
+		li:after {
+			content: "/";
+			color: #e0e0e0;
+			margin-left:3px;
+		};
+		li {
+			list-style-type: none;
+			float:right;
+			margin:0.5em 0.25em 0 0;
+
+			a {
+				color: #e0e0e0;
+			}
+	}
+}
+/* === END BREADCRUMBS ===*/
+
+/* === CONTENT ELEMENTS ===*/
+
+.content{
+	background-color: $pale;
+	margin: 0 auto;
+	width: 100%;
+/*	overflow:hidden; // removed because it was causing layout issues in Firefox*/
+	@include breakpoint(mobileonly){
+		float:left;
+	}
+	@include breakpoint(phablet){
+		float:left;
+	}
+}
+
+.tablet.toggle-subnav {
+float: left;
+margin: 0.25em;
+margin-top:	0.5em;
+color: $pale;
+text-transform: uppercase;
+@include breakpoint (mobileonly){
+	display:none;
+}
+@include breakpoint (tablet){
+	display:none;
+}
+
+/* -moz-animation-duration: .8s;
+      -webkit-animation-duration: .8s;
+      -moz-animation-name: slidein;
+      -webkit-animation-name: slidein;
+      */
+    }
+/*
+    @-moz-keyframes slidein {
+      from {
+        margin-left:-11%;
+      }
+
+      to {
+        margin-left:0%;
+      }
+    }
+
+    @-webkit-keyframes slidein {
+      from {
+        margin-left:-11%;
+      }
+
+      to {
+        margin-left:0%;
+      }
+
+}
+*/
+
+@include breakpoint(mobileonly){
+	body {font-size:14px;}
+}
+
+.article, .resource, .article-listing {
+	margin-left: 0;
+	float:right;
+	z-index: 1;
+	position: relative;
+	width: 100%;
+	padding: 0 4%;
+	@include breakpoint(tablet){
+		width: 74.5535757143%;
+		float:left;
+		padding: 0 2%
+	}
+	@include breakpoint(laptop){
+		width:57.5892857143%;
+	}
+}
+
+.article.landing {
+	float:none;
+	@include breakpoint(tablet){
+		float:left;
+	}
+}
+
+.sub-navigation {
+	margin-left: -100%;
+	width:80%;
+	float:left;
+	z-index: 2;
+}
+
+.subnav-active {
+	.article, .article-listing, .resource{
+		margin-right:-80%;
+	}
+	.sub-navigation {
+		margin-left:0;
+	}
+
+}
+
+.article, .article-listing, .resource, .sub-navigation {
+	@include transition(0.25s all ease-in)
+}
+/* === END CONTENT ELEMENTS ===*/
+
+
+/* ARTICLE ELEMENTS  */
+.landing {
+	margin:0 auto;
+	width:95%;
+	@include breakpoint(tablet){
+		width:95%;
+	}
+}
+
+/* END ARTICLE ELEMENTS  */
+
+/* SEarch and LIsting  ELEMENTS  */
+.article-listing {
+		article {
+			margin-bottom:$margin*2;
+			width: 100%;
+			h1 {
+				font-size:1.6em;
+				margin-bottom:0.5em;
+				a {
+					color:$dark;
+					&:hover{color:$red;}
+				}
+
+				@include breakpoint(tablet){
+					width:95%;
+				}
+			}
+			p {margin:0.25em 0;}
+		}
+		date {
+			color:#999;
+			font-size:0.9em;
+			text-transform: uppercase;
+			letter-spacing: 0.25em;
+		}
+}
+
+.pagination {
+	width: 100%;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	float:left;
+	padding: .25em 0;
+	margin: 0 auto 2em;
+	line-height: 4em;
+	text-transform: uppercase;
+	text-align: center;
+		ul {
+			float:left;
+			width:70%;
+			@include breakpoint(tablet){width:80%;}
+			li{
+				display:inline-block;
+				list-style-type: none;
+				padding:0 1em;
+				a {
+					line-height: 2em;
+				}
+			}
+		}
+	span.pagination-previous {float:left;}
+	span.pagination-next {float:right;}
+}
+/* END ARTICLE ELEMENTS  */
+
+/* === NAVIGATION ELEMENTS FOR THE SIDE BAR ===*/
+
+
+.sub-navigation h3 {
+	text-transform: uppercase;
+	padding-left: 0.2em;
+	margin: 1em 0 0.5em;
+	float:left;
+	color: $dark;
+	font-weight: 100;
+}
+
+.sub-navigation {
+  text-transform: uppercase;
+  float:left;
+  margin-left:-100%;
+  @include breakpoint(phablet){
+  	  width: 74.6607142857%;
+  	  border-right: 1px #b2aca5 solid;
+  	  margin: 0 1.7857142857% 0 -77.6607142857%;
+ 					  }
+   @include breakpoint(tablet){
+   	  width: 23.6607142857%;
+   	  text-transform: uppercase;
+   	  border-right: 1px #b2aca5 solid;
+   	  float:left;
+   	  margin: 0 1.7857142857% 0 0;
+   }
+  	h3 {
+  		font-size:1.6em;
+  	}
+    }
+
+.sub-navigation ul {
+  list-style-type: none;
+
+}
+.sub-navigation ul li {
+  border-top: 1px #b2aca5 solid;
+  width: 100%;
+  line-height: 2.5em;
+  float:left;
+}
+
+.sub-navigation ul li:last-child {
+  border-bottom: 1px #b2aca5 solid;
+}
+
+.sub-navigation ul li a {
+ text-decoration: none;
+ color: #333;
+ width: 100%;
+ padding-top: 0.2em;
+ padding-left: 0.5em;
+
+ float:left;
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(0,0,0,0.15) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(0,0,0,0.15))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.15) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.15) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.15) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.15) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#0d000000',GradientType=1 ); /* IE6-8 */
+
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+
+}
+
+.sub-navigation ul li a:hover, .sub-navigation ul li.active a, .sub-navigation ul li a.active  {
+color: #cd463f;
+background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 100%); /* W3C */
+}
+
+.sub-navigation ul ul li a {
+  padding-left:$padding;
+  line-height: 2em;
+	@include gradient(linear,left, rgba(white, 0), rgba(black, 0.25), 100%);
+	&::before {	font-family:'EntypoRegular';
+				content: ' ';
+				font-size: 2em;
+				position: relative;
+  				top: 3px;
+  			}
+}
+
+.sub-navigation ul ul li:last-child {
+  border-bottom: none;
+}
+
+
+/* === END NAVIGATION ELEMENT FOR THE SIDE BAR ===*/
+
+
+/* ===  RESOURCES ===*/
+
+
+
+
+.resource-details {
+	border-top: 1px solid #b2ada6;
+	border-bottom: 1px solid #b2ada6;
+	box-shadow: 0 2px 0 #b2ada6;
+	float:left;
+	padding: 1.245em 0;
+}
+
+
+ul.resource-links {
+	li {
+	list-style-type: none;
+	margin-bottom: $margin;
+	}
+}
+dl, .resource-description {
+	width: 100%;
+	margin-top:0;
+	float:left;
+}
+
+dd {margin:0;padding:0;
+	margin-bottom: $margin;
+
+}
+dt, .resource-description strong {
+	text-transform: uppercase;
+	font-size: 1.25em;
+	color: $red;
+}
+
+.resource-description p {
+	margin-top:0;
+	font-size: 0.9375em;
+	line-height: 1.375em;
+	font-weight: bold;
+}
+
+dd a {color: #333;}
+
+
+
+/*
+.resource-thumbnail {
+	include breakpoint($breakpoint-medium){
+		width: 48%;
+		float:right;
+		margin-left:2%;
+	}
+}
+*/
+/* === END RESOURCES ===*/
+
+.related-lists {
+	width:100%;
+		@include breakpoint(laptop) {
+			width: 16.9642857143%;}
+	float:left;
+	margin:2em 0 0;
+}
+/* === RELATED CONTENT ===*/
+.related-content {
+	float:left;
+	background-color: #dbd7ce;
+	margin-bottom: 1.8em;
+	box-shadow: 0px 2px 1px #c6c5bd;
+	width: 100%;
+		@include breakpoint(phablet){
+			width: 45%;
+			margin:$margin 2.5%;
+		}
+		@include breakpoint(laptop){
+			width:100%;
+		}
+	h3 {
+		color: #e7e0d7;
+		background-color: #837f7a;
+		margin: 0;
+		padding: 0.35em 1em;
+		font-size: 1em;
+	}
+	p {padding: 0.875em 0 0.875em 0.5em ;}
+	ul {
+		li {
+			list-style-type: none;
+			a {
+				 text-decoration: none;
+				 text-transform: uppercase;
+				 color: #333;
+				 width: 100%;
+				 padding: 0.875em 0 0.875em 0.5em;
+
+				 float:left;}
+			a:hover {background-color:#afaba4;}
+		}
+	}
+}
+
+/* === END RELATED CONTENT ===*/
+
+@media (min-width:37.5em){
+	@import "37_5ems";
+}
+
+@media (min-width:50em){
+	@import "50ems";
+}
+
+@media (min-width:64em){
+	@import "64ems";
+}
+
+@import "junk";
+
+/*This is some shit
+
+.foo-bar {
+	@include breakpoint($breakpoint-small) {
+		content: 'teeny tiny widths';
+	}
+}
+.foo {
+   @include  breakpoint($breakpoint-medium) {
+    content: 'medium widths';
+  }
+}
+.bar {
+   @include  breakpoint($breakpoint-large) {
+    content: 'medium widths measured in ems';
+  }
+}
+
+*/
+
+
+span.show-on-large {
+	display:none;
+	@include breakpoint(laptop){
+	display:inline;
+	}
+}
+span.show-on-small {
+	display:inline;
+	@include breakpoint(laptop){
+		display:none;
+	}
+}
+
+@import "prism";

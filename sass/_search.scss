@@ -1,0 +1,35 @@
+.search-home {
+  margin: 1em auto;
+  width:100%;
+  background-color: #f2ece5;
+  @include breakpoint(tablet){width: 80%;}
+  .search {
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin:0 auto;
+    float:none;
+    position: relative;
+    form {
+      width: 100%;
+      @include breakpoint(tablet){
+      width:75%;
+      margin:0 auto;}
+      input {
+        width:75%;
+      }
+      button {
+        width:17%;
+        background-color:$red;
+        span, span[data-icon]::before {color: $pale;}
+      }
+    }
+  }
+  h2{
+  text-align: center;
+  font-size: 2.3em;
+  margin: 0;}
+  small {float: left;
+display: block;
+padding: 1em;}
+}

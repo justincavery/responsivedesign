@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('/fonts/Roboto-Medium-webfont.eot');
+    src: url('/fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('/fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('/fonts/Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
+    font-weight: 600;
+    font-style: normal;}
+@font-face {
+    font-family: 'RobotoBoldCondensed';
+    src: url('/fonts/Roboto-BoldCondensed-webfont.eot');
+    src: url('/fonts/Roboto-BoldCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Roboto-BoldCondensed-webfont.woff') format('woff'),
+         url('/fonts/Roboto-BoldCondensed-webfont.ttf') format('truetype'),
+         url('/fonts/Roboto-BoldCondensed-webfont.svg#RobotoBoldCondensed') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('/fonts/Roboto-Regular-webfont.eot');
+    src: url('/fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('/fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('/fonts/Roboto-Regular-webfont.svg#RobotoBoldCondensed') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{font-family:'Entypo';
+  src:url("/fonts/entypo.eot?#") format("eot"),
+  url("/fonts/entypo.woff") format("woff"),
+  url("/fonts/entypo.ttf") format("truetype")
+}
+
+  [data-icon]:before {
+  font-family: 'Entypo';
+  font-weight: 400 !important;
+  content: attr(data-icon);
+  text-transform: none;
+  margin-right: 3px;
+  position: relative;
+  top: 3px;
+  font-size: 30px;
+  line-height: 0
+}
+
+
+body {background-color:$pale;
+		font-size:16px;
+		font-family: $roboto;
+		color: #1e1e1c;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+		text-transform: uppercase;
+		text-rendering: optimizeLegibility;
+    font-family: $roboto;
+    font-weight: 300;
+}
+
+h1 {font-size:2.4em;}
+h2 {font-size:2em;}
+h3 {font-size:1.6em;}
+h4 {font-size:1.4em;}
+h5 {font-size:1.2em;}
+h6 {font-size:1em; font-weight: 600;}
+
+h1 {font-size:2.8125em;margin-top: 0.4em;}
+h2 {font-size:1.5625em;}
+h3,h4 {font-size:1.25em;}
+h5 {font-size:1.125em;}
+h6 {font-size:1em; font-weight: 600;}
+
+h1, h2, h4, h5, h6 {color:#333;}
+h3,dt {color:#c64139;}
+
+p   {font-size: 1em;
+    line-height: 1.6em;}
+
+dd {font-size: 1.125em;
+    font-weight: bold;
+    }
+
+p.lead  {
+    font-size: 1.25em;
+    font-style: bold;
+    }
+
+a {color: $red;}
+
+/*li  {font-size: 0.875em;}*/
+
+code    {font-size:0.875em;}
+
+.large-introduction {
+  font-size: 1.4375em;
+  font-weight: 300;
+  color: $blockquote-color;
+  font-family: "museo-slab",'helvetica neue', helvetica,  serif;
+  padding:0 0 1em 0;
+  float:left;
+  margin: 0;
+}
+
+blockquote {
+  font-size: 1.4375em;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 2.916666667em;
+  color: $blockquote-color;
+  font-family: "museo-slab",'helvetica neue', helvetica,  serif;
+  width: 95%;
+  border-top: 1px solid #b1aca4;
+/*  border-bottom: 1px solid #b1aca4; Removed because the figcaption looked separate from the quote*/
+  padding:0.5em 0 1em 2em;
+  float:left;
+  margin-bottom: 0;
+}
+
+blockquote:before {
+ content: ' “ ';
+  font-family: serif;
+  font-size: 3.5em;
+  color: rgba(164,55,48,0.5);
+  float:left;
+  margin-left: -0.62em;
+  margin-top: .23em;
+}
+
+figure {  margin-bottom: $margin;
+}
+
+.button {font-size: 1.425em;}
+.button.large {font-size: 1.4375em;}
+
+.resource {
+    .description {
+        font-size:0.9375em;
+    }
+}
+
+.related {
+    .no-articles {font-style: 1.0625em;
+        font-weight:bold;}
+}
+figcaption {color: $red;
+            font-family: $museo;
+            font-style: italic;
+            }
+figcaption.quote:before {content: "\2014  ";}
+figcaption.small {font-size: 0.875em; line-height: 1.125em;}
+figcaption.large {font-size:1.25em; line-height: 1.75em;}
+
+ol, ul {
+
+}
+
+li {
+
+}
+
+.module {
+  h3 {text-align: center; margin-bottom:0;}
+  img {margin-bottom: $margin;}
+}
