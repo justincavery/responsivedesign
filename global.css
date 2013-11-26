@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*! normalize.css v2.0.1 | MIT License | git.io/normalize */
 /* ========================================================================== HTML5 display definitions ========================================================================== */
 /* Corrects `block` display not defined in IE 8/9. */
@@ -161,7 +160,7 @@ TYPOGRAPHY
 *********************/
 /*  To embed your own fonts, use this syntax and place your fonts inside the library/fonts folder. For more information on embedding fonts, go to: http://www.fontsquirrel.com/ Be sure to remove the comment brackets.
 */
-/*  @font-face { font-family: 'Font Name'; src: url('library/fonts/font-name.eot'); src: url('library/fonts/font-name.eot?#iefix') format('embedded-opentype'), url('library/fonts/font-name.woff') format('woff'), url('library/fonts/font-name.ttf') format('truetype'), url('library/fonts/font-name.svg#font-name') format('svg'); font-weight: normal; font-style: normal; }
+/*  @font-face { font-family: 'Font Name'; src: url('libraryhttp://playground.responsivedesign.is/fonts/font-name.eot'); src: url('libraryhttp://playground.responsivedesign.is/fonts/font-name.eot?#iefix') format('embedded-opentype'), url('libraryhttp://playground.responsivedesign.is/fonts/font-name.woff') format('woff'), url('libraryhttp://playground.responsivedesign.is/fonts/font-name.ttf') format('truetype'), url('libraryhttp://playground.responsivedesign.is/fonts/font-name.svg#font-name') format('svg'); font-weight: normal; font-style: normal; }
 */
 /*
 use the best ampersand
@@ -213,19 +212,31 @@ TRANISTION
 BREAKPOINTS
 
 *********************/
-@font-face { font-family: 'RobotoMedium'; src: url("/fonts/Roboto-Medium-webfont.eot"); src: url("/fonts/Roboto-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Medium-webfont.woff") format("woff"), url("/fonts/Roboto-Medium-webfont.ttf") format("truetype"), url("/fonts/Roboto-Medium-webfont.svg#RobotoMedium") format("svg"); font-weight: 600; font-style: normal; }
+@font-face { font-family: 'RobotoMedium'; src: url("http://playground.responsivedesign.is/fonts/Roboto-Medium-webfont.eot"); src: url("http://playground.responsivedesign.is/fonts/Roboto-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("http://playground.responsivedesign.is/fonts/Roboto-Medium-webfont.woff") format("woff"), url("http://playground.responsivedesign.is/fonts/Roboto-Medium-webfont.ttf") format("truetype"), url("http://playground.responsivedesign.is/fonts/Roboto-Medium-webfont.svg#RobotoMedium") format("svg"); font-weight: 600; font-style: normal; }
 
-@font-face { font-family: 'RobotoBoldCondensed'; src: url("/fonts/Roboto-BoldCondensed-webfont.eot"); src: url("/fonts/Roboto-BoldCondensed-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-BoldCondensed-webfont.woff") format("woff"), url("/fonts/Roboto-BoldCondensed-webfont.ttf") format("truetype"), url("/fonts/Roboto-BoldCondensed-webfont.svg#RobotoBoldCondensed") format("svg"); font-weight: 600; font-style: normal; }
+@font-face { font-family: 'RobotoBoldCondensed'; src: url("http://playground.responsivedesign.is/fonts/Roboto-BoldCondensed-webfont.eot"); src: url("http://playground.responsivedesign.is/fonts/Roboto-BoldCondensed-webfont.eot?#iefix") format("embedded-opentype"), url("http://playground.responsivedesign.is/fonts/Roboto-BoldCondensed-webfont.woff") format("woff"), url("http://playground.responsivedesign.is/fonts/Roboto-BoldCondensed-webfont.ttf") format("truetype"), url("http://playground.responsivedesign.is/fonts/Roboto-BoldCondensed-webfont.svg#RobotoBoldCondensed") format("svg"); font-weight: 600; font-style: normal; }
 
-@font-face { font-family: 'RobotoRegular'; src: url("/fonts/Roboto-Regular-webfont.eot"); src: url("/fonts/Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Regular-webfont.woff") format("woff"), url("/fonts/Roboto-Regular-webfont.ttf") format("truetype"), url("/fonts/Roboto-Regular-webfont.svg#RobotoBoldCondensed") format("svg"); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'RobotoRegular'; src: url("http://playground.responsivedesign.is/fonts/Roboto-Regular-webfont.eot"); src: url("http://playground.responsivedesign.is/fonts/Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://playground.responsivedesign.is/fonts/Roboto-Regular-webfont.woff") format("woff"), url("http://playground.responsivedesign.is/fonts/Roboto-Regular-webfont.ttf") format("truetype"), url("http://playground.responsivedesign.is/fonts/Roboto-Regular-webfont.svg#RobotoBoldCondensed") format("svg"); font-weight: 300; font-style: normal; }
 
-@font-face { font-family: 'Entypo'; src: url("/fonts/entypo.eot?#") format("eot"), url("/fonts/entypo.woff") format("woff"), url("/fonts/entypo.ttf") format("truetype"); }
+@font-face { font-family: 'Entypo'; src: url("http://playground.responsivedesign.is/fonts/entypo.eot?#") format("eot"), url("http://playground.responsivedesign.is/fonts/entypo.woff") format("woff"), url("http://playground.responsivedesign.is/fonts/entypo.ttf") format("truetype"); }
 
 [data-icon]:before { font-family: 'Entypo'; font-weight: 400 !important; content: attr(data-icon); text-transform: none; margin-right: 3px; position: relative; top: 3px; font-size: 30px; line-height: 0; }
 
 body { background-color: #ede6dc; font-size: 16px; font-family: "RobotoRegular", helvetica, sans-serif; color: #1e1e1c; }
 
 h1, h2, h3, h4, h5 { text-transform: uppercase; text-rendering: optimizeLegibility; font-family: "RobotoRegular", helvetica, sans-serif; font-weight: 300; }
+
+h1 { font-size: 2.4em; }
+
+h2 { font-size: 2em; }
+
+h3 { font-size: 1.6em; }
+
+h4 { font-size: 1.4em; }
+
+h5 { font-size: 1.2em; }
+
+h6 { font-size: 1em; font-weight: 600; }
 
 h1 { font-size: 2.8125em; margin-top: 0.4em; }
 
@@ -254,11 +265,9 @@ code { font-size: 0.875em; }
 
 .large-introduction { font-size: 1.4375em; font-weight: 300; color: #a43730; font-family: "museo-slab",'helvetica neue', helvetica,  serif; padding: 0 0 1em 0; float: left; margin: 0; }
 
-blockquote { width: 95%; padding: 0.5em 0 1em 2em; float: left; margin-bottom: 0; border-left: 1.125em solid #a43730; background-color: #ede6dc lighten, 20%; }
+blockquote { font-size: 1.4375em; font-weight: 300; font-style: italic; line-height: 2.916666667em;line-height: 1.6em; color: #a43730; font-family: "museo-slab",'helvetica neue', helvetica,  serif; width: 95%; border-top: 1px solid #b1aca4; /*  border-bottom: 1px solid #b1aca4; Removed because the figcaption looked separate from the quote*/ padding: 0.5em 0 1em 2em; float: left; margin-bottom: 0; }
 
-blockquote.fancy { font-size: 1.4375em; font-weight: 300; font-style: italic; line-height: 2.916666667em; color: #a43730; font-family: "museo-slab",'helvetica neue', helvetica,  serif; border-top: 1px solid #b1aca4; border-left: 0; /*  border-bottom: 1px solid #b1aca4; Removed because the figcaption looked separate from the quote*/ }
-
-blockquote.fancy:before { content: ' “ '; font-family: serif; font-size: 3.5em; color: rgba(164, 55, 48, 0.5); float: left; margin-left: -0.62em; margin-top: .23em; }
+blockquote:before { content: ' “ '; font-family: serif; font-size: 3.5em; color: rgba(164, 55, 48, 0.5); float: left; margin-left: -0.62em; margin-top: .23em; }
 
 figure { margin-bottom: 1.125em; }
 
@@ -284,13 +293,13 @@ figcaption.large { font-size: 1.25em; line-height: 1.75em; }
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body { width: 100%; }
-body.home { background: url(../images/background-light-texture.jpg) repeat; }
+body.home { background: url(http://playground.responsivedesign.is/images/background-light-texture.jpg) repeat; }
 
 a { color: #cc4e46; text-decoration: none; }
 
-/*	--------------------------------------------------
-	:: Tables
-	-------------------------------------------------- */
+/*    --------------------------------------------------
+    :: Tables
+    -------------------------------------------------- */
 table { background: #fff; -moz-border-radius: 3px; -webkit-border-radius: 3px; width: 100%; margin: 0 0 18px; border: 1px solid #ddd; }
 
 table thead { background: #f5f5f5; }
@@ -309,7 +318,7 @@ table tbody tr:nth-child(even) { background: #f9f9f9; }
 
 table tbody tr td { color: #333; padding: 9px 10px; vertical-align: top; border: none; }
 
-/*	Blockquotes  */
+/*    Blockquotes  */
 blockquote { padding: .5em 1.2em 0 1.2em; }
 
 blockquote cite { display: block; font-size: 0.8em; color: #555; }
@@ -320,7 +329,7 @@ blockquote cite a, blockquote cite a:visited { color: #555; }
 
 blockquote p:last-of-type { margin-bottom: 0; }
 
-/*	Forms  */
+/*    Forms  */
 input, button { font-family: "RobotoRegular", helvetica, sans-serif; text-transform: uppercase; }
 
 input, input[type="search"] { height: 2em; background-color: #fff; border-top-left-radius: 5px; -moz-border-radius-top-left: 5px; -webkit-border-top-left-radius: 5px; border-bottom-left-radius: 5px; -moz-border-radius-bottom-left: 5px; -webkit-border-bottom-left-radius: 5px; border: 0px; float: left; color: #7e7e7e; padding: 0 5px; box-shadow: inset 1px 1px 3px #CCC; }
@@ -329,10 +338,7 @@ button { float: left; background-color: #ede6dc; border-top-right-radius: 5px; -
 
 img, figure, video, audio, embed { width: 100%; max-width: 100%; }
 
-article a[href^=http] { 	/*background: transparent url(../external.svg) right top no-repeat;
-	background-size: 10px;
-	padding-right:0.5em;
-*/ background-color: rgba 255, 255, 255, 0.5; }
+article a[href^=http] { background: transparent url(../external.svg) right top no-repeat; background-size: 10px; padding-right: 0.5em; }
 
 code a[href^=http] { background: none; }
 
@@ -358,32 +364,32 @@ code a[href^=http] { background: none; }
 .grid-1-2 { width: 100%; }
 @media (min-width: 50em) { .grid-1-2 { width: 50%; } }
 
-.header { margin: 0 auto 1em; width: 100%; background-image: url(../images/background-header-texture-mobile.png); background-repeat: repeat; float: left; width: 100%; background-size: 38px 133px; min-height: 134px; /*@include breakpoint (tablet){
-		height: 170px;
-		padding-bottom:1em;}*/ }
+.header { margin: 0 auto 1em; width: 100%; background-image: url(http://playground.responsivedesign.is/images/background-header-texture-mobile.png); background-repeat: repeat; float: left; width: 100%; background-size: 38px 133px; min-height: 134px; /*@include breakpoint (tablet){
+        height: 170px;
+        padding-bottom:1em;}*/ }
 
 .rwd-sections { background-color: #ede6dc; }
 .rwd-sections a { border-bottom: 1px solid rgba(204, 78, 70, 0.5); }
 
 .section { float: left; }
 
-#logo { text-indent: -99999px; background-image: url(../images/logo.png); background-size: 120px; background-repeat: no-repeat; width: 35.94%; margin: 15px 0.25em 3px; height: 75px; float: left; }
+#logo { text-indent: -99999px; background-image: url(http://playground.responsivedesign.is/images/logo.png); background-size: 120px; background-repeat: no-repeat; width: 35.94%; margin: 15px 0.25em 3px; height: 75px; float: left; }
 @media (min-width: 37.5em) { #logo { background-size: 132px; height: 75px; width: 26.54%; } }
 @media (min-width: 50em) { #logo { background-position: 0 -108px; height: 83px; margin-top: 6px; background-size: 155px; } }
 @media (min-width: 64em) { #logo { background-position: 0 -203px; float: none; } }
 
 /* Do the SVG Logo at the end, add .no-svg to the rules above
 #logo {
-	width: 35.94%;
-	margin: 15px 0.25em 3px;
-	float:left;
-	@include breakpoint(phablet){
-		width: 10.04%;
-		height:75px;}
-	@include breakpoint(tablet){
+    width: 35.94%;
+    margin: 15px 0.25em 3px;
+    float:left;
+    @include breakpoint(phablet){
+        width: 10.04%;
+        height:75px;}
+    @include breakpoint(tablet){
 }
-	@include breakpoint(laptop){
-		float:none;}
+    @include breakpoint(laptop){
+        float:none;}
 }
 */
 #rwdis { position: absolute; width: 100%; padding: 0; font-family: "RobotoRegular", helvetica, sans-serif; letter-spacing: -0.05em; font-size: 1.3em; text-align: center; }
@@ -417,11 +423,11 @@ nav { -webkit-transition: all, 0.2s, ease; -moz-transition: all, 0.2s, ease; -o-
 nav ul { list-style-type: none; border-bottom: 1px solid rgba(154, 56, 43, 0.95); }
 @media (min-width: 37.5em) { nav ul { float: right; width: 100%; border-bottom: none; margin: 0.25em 0; } }
 @media (min-width: 64em) { nav ul { margin: 0; } }
-nav li { text-align: center; text-transform: uppercase; background-color: #f6f1ea; background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f1ea), to(#e3dcd3)); background-image: -webkit-linear-gradient(top, #f6f1ea, #e3dcd3); background-image: -moz-linear-gradient(top, #f6f1ea, #e3dcd3); background-image: -o-linear-gradient(top, #f6f1ea, #e3dcd3); background-image: -ms-linear-gradient(top, #f6f1ea, #e3dcd3); background-image: linear-gradient(top, #f6f1ea, #e3dcd3); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f6f1ea', EndColorStr='#e3dcd3'); box-shadow: 0px -1px 1px rgba(154, 56, 43, 0.75); border-bottom: 1px solid rgba(154, 56, 43, 0.45); /*	@include breakpoint(tablet) {box-shadow: none; border-bottom: none;}*/ }
+nav li { text-align: center; text-transform: uppercase; background-color: #f6f1ea; background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f1ea), to(#e3dcd3)); background-image: -webkit-linear-gradient(top, #f6f1ea, #e3dcd3); background-image: -moz-linear-gradient(top, #f6f1ea, #e3dcd3); background-image: -o-linear-gradient(top, #f6f1ea, #e3dcd3); background-image: -ms-linear-gradient(top, #f6f1ea, #e3dcd3); background-image: linear-gradient(top, #f6f1ea, #e3dcd3); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f6f1ea', EndColorStr='#e3dcd3'); box-shadow: 0px -1px 1px rgba(154, 56, 43, 0.75); border-bottom: 1px solid rgba(154, 56, 43, 0.45); /*    @include breakpoint(tablet) {box-shadow: none; border-bottom: none;}*/ }
 @media (min-width: 37.5em) { nav li { background-color: none; background-image: none; filter: none; } }
 nav li a { display: block; line-height: 2.5em; width: 100%; }
 
-.home-slider { color: #ede6dc; background: url(../images/background-dark-texture.jpg) repeat; overflow: hidden; width: 95%; margin: 1em auto; border: 5px solid #eee7dd; box-shadow: 0 0 5px rgba(0, 0, 0, 0.25); }
+.home-slider { color: #ede6dc; background: url(http://playground.responsivedesign.is/images/background-dark-texture.jpg) repeat; overflow: hidden; width: 95%; margin: 1em auto; border: 5px solid #eee7dd; box-shadow: 0 0 5px rgba(0, 0, 0, 0.25); }
 .home-slider ul { list-style-type: none; }
 .home-slider h1 { text-transform: uppercase; text-align: center; font-size: 1.6em; padding: 0 0.2em; margin-top: 0.25em; margin-bottom: 0.25em; color: #ede6dc; }
 .home-slider h1 span { display: block; font-size: 1em; }
@@ -489,7 +495,7 @@ end this may need to be added */ }
 footer { float: left; }
 
 .tweet { float: left; padding: 1.25em 1em; }
-.tweet span.logo { text-indent: -99999px; background-image: url(../images/rwd-sprite.png); background-size: 300px; display: block; width: 20%; max-width: 80px; height: 80px; float: left; }
+.tweet span.logo { text-indent: -99999px; background-image: url(http://playground.responsivedesign.is/images/rwd-sprite.png); background-size: 300px; display: block; width: 20%; max-width: 80px; height: 80px; float: left; }
 .tweet h2 { font-weight: 300; margin-top: .25em; margin-top: 0; float: right; letter-spacing: .1em; width: 75%; font-size: 1.6em; color: #ede6dc; }
 .tweet h2 span { text-transform: lowercase; }
 .tweet h2 a { color: #ede6dc; }
@@ -507,9 +513,9 @@ footer { float: left; }
 .subscribe button { width: 27%; color: #cc4e46; }
 
 @media (min-width: 50em) { .tweet, .subscribe { box-shadow: none; border-bottom: none; margin-top: 1.6em; padding-top: 0; } }
-.footer { background: url(../images/background-light-texture.jpg) repeat; float: left; padding-bottom: 1em; width: 100%; }
+.footer { background: url(http://playground.responsivedesign.is/images/background-light-texture.jpg) repeat; float: left; padding-bottom: 1em; width: 100%; }
 
-.footer-dark { background: url(../images/background-dark-texture.jpg) repeat; padding: 0.25em 1em; float: left; color: #ede6dc; }
+.footer-dark { background: url(http://playground.responsivedesign.is/images/background-dark-texture.jpg) repeat; padding: 0.25em 1em; float: left; color: #ede6dc; }
 .footer-dark p, .footer-dark .read-more { color: #d2d0c2; }
 .footer-dark .moar-content { float: left; padding: 0.25em 1em; border-bottom: 2px solid #ede6dc; }
 
@@ -533,7 +539,7 @@ footer .social .twitter { background-position: -127px 0px; }
 footer .social .rss { background-position: -178px 0px; }
 footer .social ul { list-style-type: none; width: 100%; margin-bottom: 1em; }
 footer .social ul li { display: inline-block; width: 30%; padding: 0 1.5%; }
-footer .social ul li a { text-indent: -99999px; float: left; width: 50px; height: 50px; background-image: url(../images/rwd-sprite.png); background-size: 300px; }
+footer .social ul li a { text-indent: -99999px; float: left; width: 50px; height: 50px; background-image: url(http://playground.responsivedesign.is/images/rwd-sprite.png); background-size: 300px; }
 footer .social p { font-style: italic; letter-spacing: 0.1em; font-size: 0.8em; font-weight: 100; }
 
 /* === BREADCRUMBS ===*/
@@ -546,7 +552,7 @@ ul.breadcrumbs li a { color: #e0e0e0; }
 
 /* === END BREADCRUMBS ===*/
 /* === CONTENT ELEMENTS ===*/
-.content { background-color: #ede6dc; margin: 0 auto; width: 100%; /*	overflow:hidden; // removed because it was causing layout issues in Firefox*/ }
+.content { background-color: #ede6dc; margin: 0 auto; width: 100%; /*    overflow:hidden; // removed because it was causing layout issues in Firefox*/ }
 @media (max-width: 37.5em) { .content { float: left; } }
 @media (min-width: 37.5em) { .content { float: left; } }
 
@@ -580,10 +586,6 @@ ul.breadcrumbs li a { color: #e0e0e0; }
 /* ARTICLE ELEMENTS  */
 .landing { margin: 0 auto; width: 95%; }
 @media (min-width: 50em) { .landing { width: 95%; } }
-
-article li { line-height: 1.1em; margin-bottom: 0.9em; margin-left: 1em; }
-
-aside.related-content { width: 95%; }
 
 /* END ARTICLE ELEMENTS  */
 /* SEarch and LIsting  ELEMENTS  */
@@ -623,7 +625,12 @@ aside.related-content { width: 95%; }
 .sub-navigation ul li a:hover, .sub-navigation ul li.active a, .sub-navigation ul li a.active { color: #cd463f; background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(0, 0, 0, 0))); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 100%); /* IE10+ */ background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 100%); /* W3C */ }
 
 .sub-navigation ul ul li a { padding-left: 1.125em; line-height: 2em; background-image: -webkit-gradient(linear, 100%, from(rgba(255, 255, 255, 0)), to(rgba(0, 0, 0, 0.25))); background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25)); background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25)); background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25)); background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25)); background-image: linear-gradient(left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25)); }
-.sub-navigation ul ul li a::before { content: " >"; font-size: 0.8em; position: relative; top: -2px; left: -4px; }
+
+.sub-navigation ul ul li a::before { content: " >";
+font-size: 0.8em;
+position: relative;
+top: -2px;
+left: -4px; }
 
 .sub-navigation ul ul li:last-child { border-bottom: none; }
 
@@ -645,11 +652,11 @@ dd a { color: #333; }
 
 /*
 .resource-thumbnail {
-	include breakpoint($breakpoint-medium){
-		width: 48%;
-		float:right;
-		margin-left:2%;
-	}
+    include breakpoint($breakpoint-medium){
+        width: 48%;
+        float:right;
+        margin-left:2%;
+    }
 }
 */
 /* === END RESOURCES ===*/
@@ -668,7 +675,7 @@ dd a { color: #333; }
 
 /* === END RELATED CONTENT ===*/
 @media (min-width: 37.5em) { .mobile-nav { display: none; }
-  nav li { float: left; text-align: center; background: none; box-shadow: none; border: none; border-right: 1px solid #cc4e46; width: 16.66%; height: 35px; }
+  nav li { float: left; text-align: center; background: none; box-shadow: none; border: none; border-right: 1px solid #cc4e46; width: 20%; height: 35px; }
   nav li a { width: 100%; padding: 0.8em 0; font-size: 0.85em; color: #ede6dc; line-height: 1em; }
   nav li:last-of-type { border-right: none; }
   /* RESOURCES */
@@ -743,9 +750,9 @@ dd a { color: #333; }
 /*This is some shit
 
 .foo-bar {
-	@include breakpoint($breakpoint-small) {
-		content: 'teeny tiny widths';
-	}
+    @include breakpoint($breakpoint-small) {
+        content: 'teeny tiny widths';
+    }
 }
 .foo { @include  breakpoint($breakpoint-medium) { content: 'medium widths'; }
 }
@@ -790,3 +797,11 @@ pre[class*="language-"] { padding: 1em; margin: .5em 0; overflow: auto; }
 .token.important { font-weight: bold; }
 
 .token.entity { cursor: help; }
+
+article li {
+line-height: 1.0em;
+margin-bottom: 0.8em;
+}
+aside.related-content {
+width: 95%;
+}

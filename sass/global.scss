@@ -76,9 +76,11 @@ img, figure, video, audio, embed {
 }
 
 article a[href^=http] {
-	background: transparent url(../external.svg) right top no-repeat;
+	/*background: transparent url(../external.svg) right top no-repeat;
 	background-size: 10px;
 	padding-right:0.5em;
+*/
+	background-color: rgba (255,255,255,0.5);
 	}
 
 code  a[href^=http] {
@@ -884,6 +886,16 @@ text-transform: uppercase;
 	}
 }
 
+article li {
+ 	line-height: 1.1em;
+ 	margin-bottom: 0.9em;
+ 	margin-left: 1em;
+ 		}
+
+ 	aside.related-content {
+ 	width: 95%;
+}
+
 /* END ARTICLE ELEMENTS  */
 
 /* SEarch and LIsting  ELEMENTS  */
@@ -1028,11 +1040,11 @@ background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(0,0,0,0) 100%
   padding-left:$padding;
   line-height: 2em;
 	@include gradient(linear,left, rgba(white, 0), rgba(black, 0.25), 100%);
-	&::before {	font-family:'EntypoRegular';
-				content: ' ';
-				font-size: 2em;
-				position: relative;
-  				top: 3px;
+	&::before {	content: " >";
+ 			font-size: 0.8em;
+ 			position: relative;
+ 			top: -2px;
+ 			left: -4px;
   			}
 }
 
