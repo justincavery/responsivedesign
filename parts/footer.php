@@ -1,12 +1,15 @@
 <footer>
 		<div class="footer">
-			<div class="tweet"><a href="#" class="light"><span class="logo">Twitter:</span><h2>@reswebdes <span>on</span> Twitter</h2></a>
-				<p>sed ut perspicatisu unde omnii is natus erank dksldja dskfjaosdifj  asdflkjsd</p>
-				<date>09:27am - March 18, 2012</date></div>
 			<div class="subscribe"><h2>Subscribe to RDWeekly:</h2>
 				<p>Add your email address and receive weekly emails about all things Responsive.</p>
 				<input type="email" placeholder="Email Address" id="email-address"><button type="submit" >Sign Up</button>
-				</div>
+			</div>
+
+			<div class="tweet"><a href="#" class="light"><span class="logo">Twitter:</span><h2>@reswebdes <span>on</span> Twitter</h2></a>
+				<p>sed ut perspicatisu unde omnii is natus erank dksldja dskfjaosdifj  asdflkjsd</p>
+				<date>09:27am - March 18, 2012</date>
+			</div>
+	
 		</div>
 		<div class="footer-dark">
 		<div class=" moar-content"><h2>Most Recent:</h2>

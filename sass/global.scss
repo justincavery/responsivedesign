@@ -78,11 +78,10 @@ img, figure, video, audio, embed {
 article a[href^=http] {
 	/*background: transparent url(../external.svg) right top no-repeat;
 	background-size: 10px;
-	padding-right:0.5em;
-*/
-	background-color: rgba (255,255,255,0.5);
+	padding-right:0.5em;*/
+	background-color: rgba(255,255,255,0.5);
 	}
-
+	
 code  a[href^=http] {
 	background:none;
 }
@@ -92,7 +91,7 @@ code  a[href^=http] {
 .header {
 	margin: 0 auto 1em;
 	width: 100%;
-	background-image: url(../images/background-header-texture-mobile.png);
+	background-image: url(mysource_files/background-header-texture-mobile.png);
 	background-repeat: repeat;
 	float:left;
 	width: 100%;
@@ -118,7 +117,7 @@ code  a[href^=http] {
 
 #logo {
 	text-indent: -99999px;
-	background-image: url(../images/logo.png);
+	background-image: url(mysource_files/logo.png);
 	background-size: 120px;
 	background-repeat: no-repeat;
 	width: 35.94%;
@@ -543,7 +542,7 @@ footer {
 	padding:1.25em 1em;
 	span.logo {
 		text-indent: -99999px;
-		background-image: url(../images/rwd-sprite.png);
+		background-image: url(mysource_files/rwd-sprite.png);
 		background-size:300px;
 		display:block;
 		width: 20%;
@@ -625,7 +624,7 @@ footer {
 }}
 
 .footer {
-	background: url(../images/background-light-texture.jpg) repeat;
+	background: url(mysource_files/background-light-texture.jpg) repeat;
 	float:left;
 	padding-bottom: 1em;
 	width:100%
@@ -723,7 +722,7 @@ footer .social {
 						float:left;
 						width: 50px;
 						height: 50px;
-						background-image: url(../images/rwd-sprite.png);
+						background-image: url(mysource_files/rwd-sprite.png);
 						background-size:300px;
 					}
 				}

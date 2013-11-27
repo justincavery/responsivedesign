@@ -129,6 +129,7 @@
 <script>
 $('#introrwd').toggle();
 $('#intermediate').toggle();
+$('.close-icon').this().toggle();
 
 $('#clicknew').click(function() {
   $('#introrwd').slideToggle('slow', function() {
@@ -140,9 +141,9 @@ $('#clicknew').click(function() {
 
 $('#clickint').click(function() {
   $('#intermediate').slideToggle('slow', function() {
-  		$('html, body').animate({
-  		                    scrollTop: $("#intermediate").offset().top
-  		                     }, 400);
+  	$('html, body').animate({
+  		                 scrollTop: $("#intermediate").offset().top
+  		                  }, 400);
   });
 });
 

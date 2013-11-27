@@ -5,5 +5,7 @@
 				<li><a href="style.php">Development</a></li>
 				<li><a href="design.php">Design</a></li>
 				<li><a href="resources.php">Resources</a></li>
+
+				<li><a href="resources.php">Examples</a></li>
 			</ul>
 		</nav>

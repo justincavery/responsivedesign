@@ -1,38 +1,38 @@
 @font-face {
     font-family: 'RobotoMedium';
-    src: url('/fonts/Roboto-Medium-webfont.eot');
-    src: url('/fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/Roboto-Medium-webfont.woff') format('woff'),
-         url('/fonts/Roboto-Medium-webfont.ttf') format('truetype'),
-         url('/fonts/Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
+    src: url('mysource_files/Roboto-Medium-webfont.eot');
+    src: url('mysource_files/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('mysource_files/Roboto-Medium-webfont.woff') format('woff'),
+         url('mysource_files/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('mysource_files/Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
     font-weight: 600;
     font-style: normal;}
 @font-face {
     font-family: 'RobotoBoldCondensed';
-    src: url('/fonts/Roboto-BoldCondensed-webfont.eot');
-    src: url('/fonts/Roboto-BoldCondensed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/Roboto-BoldCondensed-webfont.woff') format('woff'),
-         url('/fonts/Roboto-BoldCondensed-webfont.ttf') format('truetype'),
-         url('/fonts/Roboto-BoldCondensed-webfont.svg#RobotoBoldCondensed') format('svg');
+    src: url('mysource_files/Roboto-BoldCondensed-webfont.eot');
+    src: url('mysource_files/Roboto-BoldCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('mysource_files/Roboto-BoldCondensed-webfont.woff') format('woff'),
+         url('mysource_files/Roboto-BoldCondensed-webfont.ttf') format('truetype'),
+         url('mysource_files/Roboto-BoldCondensed-webfont.svg#RobotoBoldCondensed') format('svg');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'RobotoRegular';
-    src: url('/fonts/Roboto-Regular-webfont.eot');
-    src: url('/fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/Roboto-Regular-webfont.woff') format('woff'),
-         url('/fonts/Roboto-Regular-webfont.ttf') format('truetype'),
-         url('/fonts/Roboto-Regular-webfont.svg#RobotoBoldCondensed') format('svg');
+    src: url('mysource_files/Roboto-Regular-webfont.eot');
+    src: url('mysource_files/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('mysource_files/Roboto-Regular-webfont.woff') format('woff'),
+         url('mysource_files/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('mysource_files/Roboto-Regular-webfont.svg#RobotoBoldCondensed') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face{font-family:'Entypo';
-  src:url("/fonts/entypo.eot?#") format("eot"),
-  url("/fonts/entypo.woff") format("woff"),
-  url("/fonts/entypo.ttf") format("truetype")
+  src:url("mysource_files/entypo.eot?#") format("eot"),
+  url("mysource_files/entypo.woff") format("woff"),
+  url("mysource_files/entypo.ttf") format("truetype")
 }
 
   [data-icon]:before {
@@ -107,7 +107,7 @@ blockquote {
   float:left;
   margin-bottom: 0;
   border-left: $margin solid $blockquote-color;
-  background-color: $pale(lighten, 20%);
+  background-color: rgba(238, 231, 221, 0.2);
 }
 
 blockquote.fancy {

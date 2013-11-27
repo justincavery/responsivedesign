@@ -213,13 +213,13 @@ TRANISTION
 BREAKPOINTS
 
 *********************/
-@font-face { font-family: 'RobotoMedium'; src: url("/fonts/Roboto-Medium-webfont.eot"); src: url("/fonts/Roboto-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Medium-webfont.woff") format("woff"), url("/fonts/Roboto-Medium-webfont.ttf") format("truetype"), url("/fonts/Roboto-Medium-webfont.svg#RobotoMedium") format("svg"); font-weight: 600; font-style: normal; }
+@font-face { font-family: 'RobotoMedium'; src: url("mysource_files/Roboto-Medium-webfont.eot"); src: url("mysource_files/Roboto-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("mysource_files/Roboto-Medium-webfont.woff") format("woff"), url("mysource_files/Roboto-Medium-webfont.ttf") format("truetype"), url("mysource_files/Roboto-Medium-webfont.svg#RobotoMedium") format("svg"); font-weight: 600; font-style: normal; }
 
-@font-face { font-family: 'RobotoBoldCondensed'; src: url("/fonts/Roboto-BoldCondensed-webfont.eot"); src: url("/fonts/Roboto-BoldCondensed-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-BoldCondensed-webfont.woff") format("woff"), url("/fonts/Roboto-BoldCondensed-webfont.ttf") format("truetype"), url("/fonts/Roboto-BoldCondensed-webfont.svg#RobotoBoldCondensed") format("svg"); font-weight: 600; font-style: normal; }
+@font-face { font-family: 'RobotoBoldCondensed'; src: url("mysource_files/Roboto-BoldCondensed-webfont.eot"); src: url("mysource_files/Roboto-BoldCondensed-webfont.eot?#iefix") format("embedded-opentype"), url("mysource_files/Roboto-BoldCondensed-webfont.woff") format("woff"), url("mysource_files/Roboto-BoldCondensed-webfont.ttf") format("truetype"), url("mysource_files/Roboto-BoldCondensed-webfont.svg#RobotoBoldCondensed") format("svg"); font-weight: 600; font-style: normal; }
 
-@font-face { font-family: 'RobotoRegular'; src: url("/fonts/Roboto-Regular-webfont.eot"); src: url("/fonts/Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Regular-webfont.woff") format("woff"), url("/fonts/Roboto-Regular-webfont.ttf") format("truetype"), url("/fonts/Roboto-Regular-webfont.svg#RobotoBoldCondensed") format("svg"); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'RobotoRegular'; src: url("mysource_files/Roboto-Regular-webfont.eot"); src: url("mysource_files/Roboto-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("mysource_files/Roboto-Regular-webfont.woff") format("woff"), url("mysource_files/Roboto-Regular-webfont.ttf") format("truetype"), url("mysource_files/Roboto-Regular-webfont.svg#RobotoBoldCondensed") format("svg"); font-weight: 300; font-style: normal; }
 
-@font-face { font-family: 'Entypo'; src: url("/fonts/entypo.eot?#") format("eot"), url("/fonts/entypo.woff") format("woff"), url("/fonts/entypo.ttf") format("truetype"); }
+@font-face { font-family: 'Entypo'; src: url("mysource_files/entypo.eot?#") format("eot"), url("mysource_files/entypo.woff") format("woff"), url("mysource_files/entypo.ttf") format("truetype"); }
 
 [data-icon]:before { font-family: 'Entypo'; font-weight: 400 !important; content: attr(data-icon); text-transform: none; margin-right: 3px; position: relative; top: 3px; font-size: 30px; line-height: 0; }
 
@@ -254,7 +254,7 @@ code { font-size: 0.875em; }
 
 .large-introduction { font-size: 1.4375em; font-weight: 300; color: #a43730; font-family: "museo-slab",'helvetica neue', helvetica,  serif; padding: 0 0 1em 0; float: left; margin: 0; }
 
-blockquote { width: 95%; padding: 0.5em 0 1em 2em; float: left; margin-bottom: 0; border-left: 1.125em solid #a43730; background-color: #ede6dc lighten, 20%; }
+blockquote { width: 95%; padding: 0.5em 0 1em 2em; float: left; margin-bottom: 0; border-left: 1.125em solid #a43730; background-color: rgba(238, 231, 221, 0.2); }
 
 blockquote.fancy { font-size: 1.4375em; font-weight: 300; font-style: italic; line-height: 2.916666667em; color: #a43730; font-family: "museo-slab",'helvetica neue', helvetica,  serif; border-top: 1px solid #b1aca4; border-left: 0; /*  border-bottom: 1px solid #b1aca4; Removed because the figcaption looked separate from the quote*/ }
 
@@ -284,7 +284,7 @@ figcaption.large { font-size: 1.25em; line-height: 1.75em; }
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body { width: 100%; }
-body.home { background: url(../images/background-light-texture.jpg) repeat; }
+body.home { background: url(mysource_files/background-light-texture.jpg) repeat; }
 
 a { color: #cc4e46; text-decoration: none; }
 
@@ -329,10 +329,9 @@ button { float: left; background-color: #ede6dc; border-top-right-radius: 5px; -
 
 img, figure, video, audio, embed { width: 100%; max-width: 100%; }
 
-article a[href^=http] { 	/*background: transparent url(../external.svg) right top no-repeat;
-	background-size: 10px;
-	padding-right:0.5em;
-*/ background-color: rgba 255, 255, 255, 0.5; }
+article a[href^=http] { /*background: transparent url(../external.svg) right top no-repeat;
+background-size: 10px;
+padding-right:0.5em;*/ background-color: rgba(255, 255, 255, 0.5); }
 
 code a[href^=http] { background: none; }
 
@@ -358,7 +357,7 @@ code a[href^=http] { background: none; }
 .grid-1-2 { width: 100%; }
 @media (min-width: 50em) { .grid-1-2 { width: 50%; } }
 
-.header { margin: 0 auto 1em; width: 100%; background-image: url(../images/background-header-texture-mobile.png); background-repeat: repeat; float: left; width: 100%; background-size: 38px 133px; min-height: 134px; /*@include breakpoint (tablet){
+.header { margin: 0 auto 1em; width: 100%; background-image: url(mysource_files/background-header-texture-mobile.png); background-repeat: repeat; float: left; width: 100%; background-size: 38px 133px; min-height: 134px; /*@include breakpoint (tablet){
 		height: 170px;
 		padding-bottom:1em;}*/ }
 
@@ -367,7 +366,7 @@ code a[href^=http] { background: none; }
 
 .section { float: left; }
 
-#logo { text-indent: -99999px; background-image: url(../images/logo.png); background-size: 120px; background-repeat: no-repeat; width: 35.94%; margin: 15px 0.25em 3px; height: 75px; float: left; }
+#logo { text-indent: -99999px; background-image: url(mysource_files/logo.png); background-size: 120px; background-repeat: no-repeat; width: 35.94%; margin: 15px 0.25em 3px; height: 75px; float: left; }
 @media (min-width: 37.5em) { #logo { background-size: 132px; height: 75px; width: 26.54%; } }
 @media (min-width: 50em) { #logo { background-position: 0 -108px; height: 83px; margin-top: 6px; background-size: 155px; } }
 @media (min-width: 64em) { #logo { background-position: 0 -203px; float: none; } }
@@ -421,7 +420,7 @@ nav li { text-align: center; text-transform: uppercase; background-color: #f6f1e
 @media (min-width: 37.5em) { nav li { background-color: none; background-image: none; filter: none; } }
 nav li a { display: block; line-height: 2.5em; width: 100%; }
 
-.home-slider { color: #ede6dc; background: url(../images/background-dark-texture.jpg) repeat; overflow: hidden; width: 95%; margin: 1em auto; border: 5px solid #eee7dd; box-shadow: 0 0 5px rgba(0, 0, 0, 0.25); }
+.home-slider { color: #ede6dc; background: url(mysource_files/background-dark-texture.jpg) repeat; overflow: hidden; width: 95%; margin: 1em auto; border: 5px solid #eee7dd; box-shadow: 0 0 5px rgba(0, 0, 0, 0.25); }
 .home-slider ul { list-style-type: none; }
 .home-slider h1 { text-transform: uppercase; text-align: center; font-size: 1.6em; padding: 0 0.2em; margin-top: 0.25em; margin-bottom: 0.25em; color: #ede6dc; }
 .home-slider h1 span { display: block; font-size: 1em; }
@@ -489,7 +488,7 @@ end this may need to be added */ }
 footer { float: left; }
 
 .tweet { float: left; padding: 1.25em 1em; }
-.tweet span.logo { text-indent: -99999px; background-image: url(../images/rwd-sprite.png); background-size: 300px; display: block; width: 20%; max-width: 80px; height: 80px; float: left; }
+.tweet span.logo { text-indent: -99999px; background-image: url(mysource_files/rwd-sprite.png); background-size: 300px; display: block; width: 20%; max-width: 80px; height: 80px; float: left; }
 .tweet h2 { font-weight: 300; margin-top: .25em; margin-top: 0; float: right; letter-spacing: .1em; width: 75%; font-size: 1.6em; color: #ede6dc; }
 .tweet h2 span { text-transform: lowercase; }
 .tweet h2 a { color: #ede6dc; }
@@ -507,9 +506,9 @@ footer { float: left; }
 .subscribe button { width: 27%; color: #cc4e46; }
 
 @media (min-width: 50em) { .tweet, .subscribe { box-shadow: none; border-bottom: none; margin-top: 1.6em; padding-top: 0; } }
-.footer { background: url(../images/background-light-texture.jpg) repeat; float: left; padding-bottom: 1em; width: 100%; }
+.footer { background: url(mysource_files/background-light-texture.jpg) repeat; float: left; padding-bottom: 1em; width: 100%; }
 
-.footer-dark { background: url(../images/background-dark-texture.jpg) repeat; padding: 0.25em 1em; float: left; color: #ede6dc; }
+.footer-dark { background: url(mysource_files/background-dark-texture.jpg) repeat; padding: 0.25em 1em; float: left; color: #ede6dc; }
 .footer-dark p, .footer-dark .read-more { color: #d2d0c2; }
 .footer-dark .moar-content { float: left; padding: 0.25em 1em; border-bottom: 2px solid #ede6dc; }
 
@@ -533,7 +532,7 @@ footer .social .twitter { background-position: -127px 0px; }
 footer .social .rss { background-position: -178px 0px; }
 footer .social ul { list-style-type: none; width: 100%; margin-bottom: 1em; }
 footer .social ul li { display: inline-block; width: 30%; padding: 0 1.5%; }
-footer .social ul li a { text-indent: -99999px; float: left; width: 50px; height: 50px; background-image: url(../images/rwd-sprite.png); background-size: 300px; }
+footer .social ul li a { text-indent: -99999px; float: left; width: 50px; height: 50px; background-image: url(mysource_files/rwd-sprite.png); background-size: 300px; }
 footer .social p { font-style: italic; letter-spacing: 0.1em; font-size: 0.8em; font-weight: 100; }
 
 /* === BREADCRUMBS ===*/
@@ -678,15 +677,15 @@ dd a { color: #333; }
   .header > header { margin: 0 auto; width: 100%; padding: 0 2%; /*max-width: 1024px;*/ background-size: 38px 155px; }
   .search { position: absolute; top: 0em; right: 0%; width: 58%; padding: 0.25em 1em; }
   .resources .button { font-size: 1.4375em; }
-  .home-slider, .section-box, .tweet, .rwd-sections .section-box:nth-child(2n), .moar-content { margin-right: 3.8%; float: left; min-height: 1px; }
+  .home-slider, .section-box, .subscribe, .rwd-sections .section-box:nth-child(2n), .moar-content { margin-right: 3.8%; float: left; min-height: 1px; }
   .home-slider, .news-listing { min-height: 300px; }
   /* Seven Columns */
-  .home-slider, .tweet { width: 56.75%; float: left; }
+  .home-slider, .subscribe { width: 56.75%; float: left; }
   .home-cta span { float: left; width: 100%; }
   .home-slider { padding: 0 1em; border: 5px solid #eee7dd; margin-top: 0; }
   /* Five Columns */
-  .news-listing, .subscribe { width: 39.45%; float: left; }
-  .subscribe, .news-listing { border-left: 1px solid #eee7dd; padding-left: 5%; }
+  .news-listing, .tweet { width: 39.45%; float: left; }
+  .news-listing { border-left: 1px solid #eee7dd; padding-left: 5%; }
   .news-listing { border-top: none; padding-top: 0; }
   .news-listing h2 { border-top: 8px solid #ede6dc; margin-top: 0; }
   .news-listing h3 { font-size: 0.9em; }

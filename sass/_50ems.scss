@@ -25,7 +25,7 @@
 	font-size: 1.4375em;
 }
 
-.home-slider,.section-box, .tweet, .rwd-sections .section-box:nth-child(2n), .moar-content {
+.home-slider,.section-box, .subscribe, .rwd-sections .section-box:nth-child(2n), .moar-content {
 margin-right: 3.8%;
 float: left;
 min-height: 1px;
@@ -37,7 +37,7 @@ min-height: 1px;
 }
 
 /* Seven Columns */
-.home-slider, .tweet {
+.home-slider, .subscribe {
 	width: 56.75%;
 	float: left;
 }
@@ -54,15 +54,14 @@ min-height: 1px;
 
 
 /* Five Columns */
-.news-listing, .subscribe {
+.news-listing, .tweet {
 	width: 39.45%;
 	float:left;
 }
 
-.subscribe, .news-listing {
-		border-left: 1px solid $paleborder;
+.news-listing {
+	border-left: 1px solid $paleborder;
 	padding-left: 5%;
-
 }
 
 .news-listing {
