@@ -34,15 +34,6 @@
       "outputAbbreviatedPath" : "\/js\/css3-mediaqueries-ck.js",
       "fileType" : 64
     },
-    "\/books.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/books.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/css\/mysource_files\/background-header-texture.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -54,12 +45,12 @@
       "initialSize" : 11139,
       "fileType" : 4096
     },
-    "\/example-beds.php" : {
+    "\/books.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/example-beds.php",
+      "inputAbbreviatedPath" : "\/books.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -73,6 +64,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/modernizr-2.0.6.min-ck-ck.js",
       "fileType" : 64
+    },
+    "\/example-beds.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/example-beds.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/parts\/footer.php" : {
       "ignoreWasSetByUser" : 0,
@@ -237,6 +237,48 @@
       "outputAbbreviatedPath" : "\/js\/global-ck-ck.js",
       "fileType" : 64
     },
+    "\/amazium.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/amazium.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/amazium.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/amazium.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/amazium.jpg",
+      "initialSize" : 64001,
+      "fileType" : 4096
+    },
+    "\/images\/background-dark-texture.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/background-dark-texture.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/background-dark-texture.jpg",
+      "initialSize" : 3585,
+      "fileType" : 4096
+    },
+    "\/css\/mysource_files\/background-texture.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/mysource_files\/background-texture.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/css\/mysource_files\/background-texture.jpg",
+      "initialSize" : 40207,
+      "fileType" : 4096
+    },
     "\/article-dan-mall.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -257,56 +299,14 @@
       "initialSize" : 5976,
       "fileType" : 4096
     },
-    "\/images\/background-dark-texture.jpg" : {
+    "\/resources.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/background-dark-texture.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/background-dark-texture.jpg",
-      "initialSize" : 3585,
-      "fileType" : 4096
-    },
-    "\/css\/globalb.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/globalb.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/amazium.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/amazium.php",
+      "inputAbbreviatedPath" : "\/resources.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/css\/mysource_files\/background-texture.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/mysource_files\/background-texture.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/mysource_files\/background-texture.jpg",
-      "initialSize" : 40207,
-      "fileType" : 4096
-    },
-    "\/images\/amazium.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/amazium.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/amazium.jpg",
-      "initialSize" : 64001,
-      "fileType" : 4096
     },
     "\/parts\/related-articles.php" : {
       "ignoreWasSetByUser" : 0,
@@ -314,15 +314,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/parts\/related-articles.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/resources.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/resources.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -392,12 +383,12 @@
       "initialSize" : 1954,
       "fileType" : 8192
     },
-    "\/style.php" : {
+    "\/navigation.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/style.php",
+      "inputAbbreviatedPath" : "\/navigation.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -412,12 +403,12 @@
       "initialSize" : 5813,
       "fileType" : 8192
     },
-    "\/navigation.php" : {
+    "\/style.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/navigation.php",
+      "inputAbbreviatedPath" : "\/style.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -451,16 +442,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/mysource_files\/background-header-texture-mobile.png" : {
+    "\/studios.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/mysource_files\/background-header-texture-mobile.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/mysource_files\/background-header-texture-mobile.png",
-      "initialSize" : 7453,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/studios.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/sass\/_prism.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -474,24 +463,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/index.php.bak.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php.bak.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/design.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/design.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/images\/logo-mobile.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -503,6 +474,26 @@
       "initialSize" : 1954,
       "fileType" : 8192
     },
+    "\/design.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/design.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/mysource_files\/background-header-texture-mobile.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/mysource_files\/background-header-texture-mobile.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/css\/mysource_files\/background-header-texture-mobile.png",
+      "initialSize" : 7453,
+      "fileType" : 8192
+    },
     "\/parts\/javascript.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -512,30 +503,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/global.css" : {
+    "\/index.php.bak.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/global.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/studios.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/studios.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/articles.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/articles.php",
+      "inputAbbreviatedPath" : "\/index.php.bak.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -551,6 +524,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/articles.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/articles.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/Google Analytics Responsive Design Dashboard   Responsive Web Design.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -560,14 +542,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/frameworks.php.bak.php" : {
+    "\/images\/background-header-texture.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/frameworks.php.bak.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/images\/background-header-texture.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/background-header-texture.jpg",
+      "initialSize" : 11139,
+      "fileType" : 4096
     },
     "\/images\/search-logo-s.png" : {
       "ignoreWasSetByUser" : 0,
@@ -589,16 +573,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/background-header-texture.jpg" : {
+    "\/frameworks.php.bak.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/background-header-texture.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/background-header-texture.jpg",
-      "initialSize" : 11139,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/frameworks.php.bak.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/javascript.php" : {
       "ignoreWasSetByUser" : 0,
@@ -629,6 +611,15 @@
       "outputAbbreviatedPath" : "\/js\/prism-ck.js",
       "fileType" : 64
     },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
+    },
     "\/sass\/_grid.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -640,15 +631,6 @@
       "outputAbbreviatedPath" : "\/css\/_grid.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/config.rb" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
     },
     "\/css\/global.css" : {
       "ignoreWasSetByUser" : 0,
@@ -781,17 +763,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/modernizr-2.0.6.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/modernizr-2.0.6.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/modernizr-2.0.6.min-ck.js",
-      "fileType" : 64
-    },
     "\/sass\/_64ems.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -803,6 +774,17 @@
       "outputAbbreviatedPath" : "\/css\/_64ems.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/js\/modernizr-2.0.6.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/modernizr-2.0.6.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/modernizr-2.0.6.min-ck.js",
+      "fileType" : 64
     },
     "\/images\/rwd-sprite.png" : {
       "ignoreWasSetByUser" : 0,
@@ -934,14 +916,14 @@
     "stylusDebugStyle" : 0,
     "hamlUseCDATA" : 0,
     "hamlAutoOutputPathStyle" : 0,
-    "sassDebugStyle" : 0,
+    "sassDebugStyle" : 2,
     "hamlOutputStyle" : 0,
     "stylusAutoOutputPathRelativePath" : "..\/css",
     "jsCheckerIndent" : 4,
     "kitAutoOutputPathRelativePath" : "",
     "lessAutoOutputPathReplace2" : "css",
     "jadeAutoOutputPathReplace2" : "",
-    "shouldRunBless" : 0,
+    "shouldRunBless" : 1,
     "stylusAutoOutputPathStyle" : 2,
     "coffeeCheckOutputStyle" : 0,
     "slimOutputStyle" : 1,

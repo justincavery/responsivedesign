@@ -583,6 +583,9 @@ footer {
 	clear:right;
 	float:left;
 	padding:0.25em 1em 2em;
+	@include breakpoint(tablet){
+		border-right: 1px solid $paleborder;}
+
 	h2 {
 		color: $pale;
 		text-align:center;
@@ -627,8 +630,13 @@ footer {
 	background: url(mysource_files/background-light-texture.jpg) repeat;
 	float:left;
 	padding-bottom: 1em;
-	width:100%
+	width:100%;
+	h1,h2,h3,h4,h5 {
+		color: $pale;
+	}
 }
+
+
 .footer-dark {
 	background: $dark-bg-texture;
 	padding:0.25em 1em;
@@ -668,7 +676,7 @@ footer .moar-content {
 		}
 	}
 	@include breakpoint(laptop) {
-		width: 25%;
+		width: 33%;
 	}
 	h2 {
 		font-size:2.1em;
@@ -679,6 +687,7 @@ footer .moar-content {
 	h3 {
 		margin: 0.25em 0;
 		font-size: 1.6em;
+		color: $pale;
 	}
 	p, .read-more  {
 		font-family: $museo;
@@ -696,7 +705,8 @@ footer .moar-content {
 	}
 }
 
-footer .social {
+.social {
+	float:left;
 					margin: 0 auto;
 					border-bottom: none;
 	.facebook {

@@ -5,9 +5,16 @@
 				<input type="email" placeholder="Email Address" id="email-address"><button type="submit" >Sign Up</button>
 			</div>
 
-			<div class="tweet"><a href="#" class="light"><span class="logo">Twitter:</span><h2>@reswebdes <span>on</span> Twitter</h2></a>
-				<p>sed ut perspicatisu unde omnii is natus erank dksldja dskfjaosdifj  asdflkjsd</p>
-				<date>09:27am - March 18, 2012</date>
+			<div class="social">
+			<h2>Socialise:</h2>
+				<ul>
+					<li><span ><a class="facebook" href="#">Facebook</a></span></li>
+					<li><a class="twitter" href="#">Twitter</a></li>
+					<li><a class="rss" href="#">RSS</a></li><!--
+					<li><a class="github" href="#">Github</a></li>
+					<li><a class="codepen" href="#">Codepen</a></li>-->
+				</ul>
+
 			</div>
 	
 		</div>
@@ -25,17 +32,9 @@
 				<li>Email: <a href="mailto:info@responsivedesign.is">info@responsivedesign.is</a></li>
 				<li>Twitter: <a href="http://www.twitter.com/reswebdes">@reswebdes</a></li>
 			</ul>
-		</div>
-			<div class="moar-content social"><h2>Socialise:</h2>
-				<ul>
-					<li><span ><a class="facebook" href="#">Facebook</a></span></li>
-					<li><a class="twitter" href="#">Twitter</a></li>
-					<li><a class="rss" href="#">RSS</a></li><!--
-					<li><a class="github" href="#">Github</a></li>
-					<li><a class="codepen" href="#">Codepen</a></li>-->
-				</ul>
-				<p>Responsivedesign.is is the brain child of Justin Avery<br /><span>Designed by Kate O'Connell</span></p>
+			<p>Responsivedesign.is is the brain child of Justin Avery</p>
 
-			</div>
+		</div>
+
 		</div>
 	</footer>

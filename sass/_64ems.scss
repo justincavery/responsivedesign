@@ -11,14 +11,14 @@
 }
 
 /* Four Columns */
-.rwd-sections .section-box, .moar-content {
+.rwd-sections .section-box {
 	width: 22.05%;
 }
 .rwd-sections .section-box:nth-child(2n){
 		margin-right:3.8%;
 }
 
-.rwd-sections .section-box:nth-child(4n), .moar-content:nth-child(4n) {
+.rwd-sections .section-box:nth-child(4n) {
 		margin-right:0;
 }
 
@@ -46,7 +46,6 @@
 }
 
 .footer-dark  .moar-content {
-	padding: 0;
 	border-bottom:0;
 	h2 {
 		font-size:1.5em;
