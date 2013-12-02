@@ -153,7 +153,6 @@ Prism.languages.javascript=Prism.languages.extend("clike",{keyword:/\b(var|let|i
 // FitText running on certain headings on the site
   $( ".feature-story h1" ).fitText(1.2);
   $( ".feature-story h1 span" ).fitText(0.8);
- // $(".subscribe h2").fitText(1.1);
 
 // Navigation Toggle for main and sub navigtaion
 
