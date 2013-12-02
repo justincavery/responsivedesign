@@ -2,15 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/parts\/doctype.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/parts\/doctype.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/sass\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -22,6 +13,15 @@
       "outputAbbreviatedPath" : "\/css\/screen.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/parts\/doctype.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/parts\/doctype.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/css3-mediaqueries.js" : {
       "ignoreWasSetByUser" : 0,
@@ -54,6 +54,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/example-beds.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/example-beds.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/modernizr-2.0.6.min-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -64,15 +73,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/modernizr-2.0.6.min-ck-ck.js",
       "fileType" : 64
-    },
-    "\/example-beds.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/example-beds.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/parts\/footer.php" : {
       "ignoreWasSetByUser" : 0,
@@ -174,17 +174,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/respond.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/respond.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/respond.min-ck.js",
-      "fileType" : 64
-    },
     "\/video.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -193,6 +182,18 @@
       "inputAbbreviatedPath" : "\/video.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/sass\/ie.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/ie.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/ie.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/images\/background-texture.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -214,17 +215,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/sass\/ie.scss" : {
+    "\/js\/respond.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/ie.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/ie.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/respond.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/respond.min-ck.js",
+      "fileType" : 64
     },
     "\/js\/global-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -299,21 +299,21 @@
       "initialSize" : 5976,
       "fileType" : 4096
     },
-    "\/resources.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/resources.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/parts\/related-articles.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/parts\/related-articles.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/resources.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/resources.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -442,6 +442,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/css\/mysource_files\/background-header-texture-mobile.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/mysource_files\/background-header-texture-mobile.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/css\/mysource_files\/background-header-texture-mobile.png",
+      "initialSize" : 7453,
+      "fileType" : 8192
+    },
     "\/studios.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -450,18 +461,6 @@
       "inputAbbreviatedPath" : "\/studios.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/sass\/_prism.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_prism.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_prism.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/images\/logo-mobile.png" : {
       "ignoreWasSetByUser" : 0,
@@ -483,16 +482,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css\/mysource_files\/background-header-texture-mobile.png" : {
+    "\/index.php.bak.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/mysource_files\/background-header-texture-mobile.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/css\/mysource_files\/background-header-texture-mobile.png",
-      "initialSize" : 7453,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/index.php.bak.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/parts\/javascript.php" : {
       "ignoreWasSetByUser" : 0,
@@ -500,15 +497,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/parts\/javascript.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/index.php.bak.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php.bak.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -521,6 +509,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_typography.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/_prism.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_prism.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_prism.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -542,16 +542,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/background-header-texture.jpg" : {
+    "\/frameworks.php.bak.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/background-header-texture.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/background-header-texture.jpg",
-      "initialSize" : 11139,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/frameworks.php.bak.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/search-logo-s.png" : {
       "ignoreWasSetByUser" : 0,
@@ -573,14 +571,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/frameworks.php.bak.php" : {
+    "\/images\/background-header-texture.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/frameworks.php.bak.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/images\/background-header-texture.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/background-header-texture.jpg",
+      "initialSize" : 11139,
+      "fileType" : 4096
     },
     "\/javascript.php" : {
       "ignoreWasSetByUser" : 0,
