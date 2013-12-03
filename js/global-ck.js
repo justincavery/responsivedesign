@@ -172,6 +172,29 @@ $('a.toggle-menu').click(function() {
     $(".fitvids").fitVids();
   });
 
+
+// Home page show/hide boxes
+$('#introrwd').toggle();
+$('#intermediate').toggle();
+$('.close-icon').this().toggle();
+
+$('#clicknew').click(function() {
+  $('#introrwd').slideToggle('slow', function() {
+    $('html, body').animate({
+                        scrollTop: $("#introrwd").offset().top
+                         }, 400);
+  });
+});
+
+$('#clickint').click(function() {
+  $('#intermediate').slideToggle('slow', function() {
+    $('html, body').animate({
+                       scrollTop: $("#intermediate").offset().top
+                        }, 400);
+  });
+});
+
+
 /* **********************************************
      Begin respond.min.js
 ********************************************** */
