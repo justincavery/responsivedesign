@@ -24,7 +24,7 @@ $('a.toggle-menu').click(function() {
 // Home page show/hide boxes
 $('#introrwd').toggle();
 $('#intermediate').toggle();
-$('.close-icon').this().toggle();
+//$('.close-icon').this().toggle();
 
 $('#clicknew').click(function() {
   $('#introrwd').slideToggle('slow', function() {
