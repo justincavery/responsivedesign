@@ -254,7 +254,7 @@ code { font-size: 0.875em; }
 
 .large-introduction { font-size: 1.4375em; font-weight: 300; color: #a43730; font-family: "museo-slab",'helvetica neue', helvetica,  serif; padding: 0 0 1em 0; float: left; margin: 0; }
 
-blockquote { width: 95%; padding: 0.5em 0 1em 2em; float: left; margin-bottom: 0; margin-left: 0; border-left: 1.125em solid #a43730; background-color: rgba(238, 231, 221, 0.2); }
+blockquote { width: 95%; padding: 0.5em 0 1em 2em; float: left; margin-bottom: 0; margin-left: 0; border-left: 1.125em solid #a43730; background-color: rgba(238, 231, 221, 0.2); line-height: 1.6em; }
 
 blockquote.fancy { font-size: 1.4375em; font-weight: 300; font-style: italic; line-height: 2.916666667em; color: #a43730; font-family: "museo-slab",'helvetica neue', helvetica,  serif; border-top: 1px solid #b1aca4; border-left: 0; /*  border-bottom: 1px solid #b1aca4; Removed because the figcaption looked separate from the quote*/ }
 
@@ -309,17 +309,13 @@ table tbody tr:nth-child(even) { background: #f9f9f9; }
 
 table tbody tr td { color: #333; padding: 9px 10px; vertical-align: top; border: none; }
 
-/*	Blockquotes  */
-blockquote { padding: .5em 1.2em 0 1.2em; }
-
-blockquote cite { display: block; font-size: 0.8em; color: #555; }
-
-blockquote cite:before { content: "\2014 \0020"; }
-
-blockquote cite a, blockquote cite a:visited { color: #555; }
-
-blockquote p:last-of-type { margin-bottom: 0; }
-
+/*	Blockquotes  
+	blockquote, blockquote p {  }
+	blockquote { padding: .5em 1.2em 0 1.2em; }
+	blockquote cite { display: block; font-size: 0.8em; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited { color: #555; }
+	blockquote p:last-of-type { margin-bottom: 0;}*/
 /*	Forms  */
 input, button { font-family: "RobotoRegular", helvetica, sans-serif; text-transform: uppercase; }
 

@@ -36,13 +36,13 @@ a {color: $red;
 	table tbody tr:nth-child(even) { background: #f9f9f9; }
 	table tbody tr td { color: #333; padding: 9px 10px; vertical-align: top; border: none; }
 
-/*	Blockquotes  */
+/*	Blockquotes  
 	blockquote, blockquote p {  }
 	blockquote { padding: .5em 1.2em 0 1.2em; }
 	blockquote cite { display: block; font-size: 0.8em; color: #555; }
 	blockquote cite:before { content: "\2014 \0020"; }
 	blockquote cite a, blockquote cite a:visited { color: #555; }
-	blockquote p:last-of-type { margin-bottom: 0;}
+	blockquote p:last-of-type { margin-bottom: 0;}*/
 /*	Forms  */
 input, button {
 	font-family: $roboto;

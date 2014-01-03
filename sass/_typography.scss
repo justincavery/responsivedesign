@@ -103,12 +103,13 @@ code    {font-size:0.875em;}
 
 blockquote {
   width: 95%;
-  padding:0.5em 0 1em 2em;
+  padding: 0.5em 0 1em 2em;
   float:left;
   margin-bottom: 0;
   margin-left: 0;
   border-left: $margin solid $blockquote-color;
   background-color: rgba(238, 231, 221, 0.2);
+  line-height: 1.6em
 }
 
 blockquote.fancy {
