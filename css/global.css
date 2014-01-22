@@ -737,6 +737,17 @@ dd a { color: #333; }
   .show-on-small { display: none; } }
 .home-cta { padding-top: 0; }
 
+/* ARRTILCESs */
+.article-metadata { display: none; background-color: #dbd7ce; }
+.article-metadata h1 { font-size: 1.2em; }
+.article-metadata ul { margin: 0; padding: 0; }
+.article-metadata ul li { list-style-type: none; margin-left: 0; }
+@media (min-width: 37.5em) { .article-metadata { display: block; float: left; width: 25%; margin: 0 1em 0 -5em; padding: 0.5em; } }
+
+@media (min-width: 50em) { .article { width: 80%; float: none; margin: 1em auto 0; } }
+
+.articles .related-lists { width: 45%; }
+
 /*This is some shit
 
 .foo-bar {

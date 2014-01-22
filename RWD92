@@ -1,0 +1,140 @@
+RWD92
+
+Hello and welcome to another week of responsification... yes it's real word*
+
+This week our feature site is our much loved hosting provider for the responsive design weekly website, MediaTemple. This week I created a (quick overview)[rwd.is/example/mediatemple] of the responsive nature of their site and I'll be speaking with some of the front end crew about their approach and some of their decisions behind the build.
+
+We recently took a step closer towards a responsive image solution after the <picture> approach was nearly cast aside before making an almighty comeback to lead the race.
+
+There's also a new workshop doing the rounds featuring a couple of people that know a thing or two about content and responsive design, but more about that later.
+
+Lets get to those links.
+
+*not really a real word
+
+
+
+Bug 19619 – Remove media="" from <source> if it isn't used 
+https://www.w3.org/Bugs/Public/show_bug.cgi?id=19619#c31
+This has been backed up with this comment showing that <picture> is on the Mozilla's DOM team's roadmap for Q1 2014.
+
+
+
+
+THIS WEEKS FEATURE SITE
+
+Media Temple 
+http://mediatemple.net/
+This weeks feature site is Media Temple, a hosting company that many of your should be familiar with by now. We host our responsivedesignweekly.com website with them too.
+
+
+
+
+
+
+Responsive Design Isn’t Good Enough // Ektron 
+http://www.ektron.com/Blogs/eGandalf/Responsive-Design-Isn-t-Good-Enough/
+We're not finished with a responsive redesign, you need to be developing a purpose driven website. A great post from James Stout at Ektron.
+
+
+Defining Responsiveness 
+http://blog.cloudfour.com/defining-responsiveness/
+Jason puts the question of what /really/ denotes something as being responsive. This has similar connotations to "is it a web app or a website" debate.
+
+
+
+
+
+
+
+ARTICLES 
+
+
+Beyond Responsive 
+http://timkadlec.com/2014/01/beyond-responsive/
+an excellent post follow up to Jasons article where Tim wonders if maybe we’ve been too successful and responsive design has taken on life as a buzzword.
+
+The picture Element 
+http://picture.responsiveimages.org/
+After nearly suffering abandonment in the footnotes of history the picture element has risen again, this time as a draft.
+
+Rounded by Gravity · Colophon 
+http://roundedbygravity.com/colophon/
+An interesting read in making a website recreate the perfect book layout. It's a great story of an idea, how it was implemented and the issues that were faced. I really love the layout across various viewports
+
+A More Modern Scale for Web Typography | Design in the browser with web fonts and real content — Typecast 
+http://typecast.com/blog/a-more-modern-scale-for-web-typography
+Maintaining a good typographic scale across many viewports can be difficult. Thankfully someone has done all the hardwork for us and created these set of new rules for a responsive approach (and someone even sassified them up too (https://gist.github.com/hatefulcrawdad/8463591)
+
+2014: The year we all go 4K - daverupert.com 
+http://daverupert.com/2014/01/4K-RWD/
+Dave Rupert ponders what it might mean if 4K monitors become mainstream. Does supporting displays that are 3840×2160 resolutions gives us Even Mo’ Pixels, Even Mo’ Problems?
+
+Why We Dropped Zepto by ZURB 
+http://zurb.com/article/1293/why-we-dropped-zepto
+Sometimes the fastest to load isn't always the fastest overall performance. This was the case for Foundation and why Zurb made the decision to move on.
+
+
+The Technology Behind the NYTimes.com Redesign - NYTimes.com 
+http://open.blogs.nytimes.com/2014/01/08/the-technology-behind-the-nytimes-com-redesign/?_…
+A look at what is new and what is improved in the NYTimes redesign. Rather then use css media queries they rely on their own responsive javascript solution.
+
+
+What responsive web design means for team organisation
+http://www.creativebloq.com/business/what-responsive-web-design-means-team-organisation-11410353
+Ben Callahan looks at the business side of responsive design work and how that has had an effect on project teams and the clients we work for.
+
+
+Bulletproof Accessible Icon Fonts 
+http://filamentgroup.com/lab/bulletproof_icon_fonts/
+Icons can be a great way to convey meaning across smaller viewports. If your using icon fonts for social icons, three lines for menus, magnifying glass for search etc then you should understand the possible issues and solutions that come along with their use.
+
+A Client-side Responsive Image Solution, Finally 
+https://medium.com/cool-code-pal/d9a47f94eea7
+I toyed with this idea in a huge twitter conversation a few months back. The consensus of the discussion was more that we were asking too much input from the user. This is a great solution for now, but we need to get browsers to allow these preferences to be set within the browsers so every site can benefit from these hints.
+
+The Ethos of Responsive Design | Mutually Human 
+http://www.mutuallyhuman.com/blog/2013/12/31/the-ethos-of-responsive-design/?ref=heydesign…
+An article that takes a step away from the technical side of responsive design. Focus on how your site/web app feels when you use it first, then look at the technical approach.
+
+
+Guardian shows why mobile design has to work for commercial content as well as editorial content 
+http://martinbelam.com/2014/guardian-shows-why-mobile-design-has-to-work-for-commercial-content-as-well-as-editorial-content/
+A look at how advertising is framed between mobile and desktop viewports. In this example an obvious advertisement looks like part of the article in two viewports.
+
+
+TUTORIAL
+
+Responsive UI with Luminosity Level – 
+http://girliemac.com/blog/2014/01/12/luminosity/
+Jordan first wrote about this in November, but Tomomi has taken it to the next level with a more detailed example. My friend Chris added this to his site too (open in Firefox and shield your light sensor).
+
+Flexible CSS cover images – Nicolas Gallagher 
+http://nicolasgallagher.com/flexible-css-cover-images/
+
+
+TOOLS
+
+twbs/bootstrap-sass 
+https://github.com/twbs/bootstrap-sass
+For all of those Sass fans that always wanted a version of Bootstrap to play with.... this is your lucky day (well, Wednesday was your lucky day). Bootstrap has been officially ported to Sass and is now available on GitHub.
+
+Responsive Tables Demo 
+http://kthornbloom.com/responsivetables/
+A small plugin that detects when a table is about to break your layout. The table is then replaced with a link to view the table externally.
+
+
+WORKSHOPS
+
+Responsive Web Design: Workshops and training 
+http://responsivewebdesign.com/workshop/#contact
+Looking for some tips and tricks from some experts? Heard ob Karen McGrane and Ethan Marcotte? You might want to check this out.
+
+
+# TIP OF THE WEEK: Organising your sass
+
+Are you one of those people that love your CSS and take pride in crafting a CSS document?  If so the chances are that you also haven't taken the leap into CSS preprocessors because of this exact reason.  My colleague Chris was one of those people until recently and is currently finding the delight that comes with scss over css.  My one tip for him when he got started was to break up his Sass files into modules by creating _module.scss files, and to use a breakpoint mixin to write the media query changes to the module inline with the rest of the rules.  
+
+Chris is now much happier with life. If you want a little more direction on this then you're in luck, I've elaborated a little more here.
+
+
