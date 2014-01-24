@@ -164,7 +164,7 @@ samp {
 pre {
     white-space: pre;
     white-space: pre-wrap;
-    word-wrap: break-word;
+//  word-wrap: break-word; removed because it was breaking code blocks and I wanted them to scroll.
 }
 
 /*
