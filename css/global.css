@@ -481,7 +481,7 @@ end this may need to be added */ }
 
 .starting-rwd { float: left; width: 100%; background-color: #EDE6DC; padding: 1em; }
 
-footer { float: left; }
+footer { float: left; width: 100%; overflow: hidden; }
 
 .tweet { float: left; padding: 1.25em 1em; }
 .tweet span.logo { text-indent: -99999px; background-image: url(mysource_files/rwd-sprite.png); background-size: 300px; display: block; width: 20%; max-width: 80px; height: 80px; float: left; }
