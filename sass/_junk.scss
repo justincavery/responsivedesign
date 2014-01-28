@@ -4,9 +4,50 @@
 
   /* ARRTILCESs */
 
+.content {
+  width: 100%;
+}
+
+
+.articles {
+  .content {
+    .article {
+      width: 100%;
+      margin: 1em auto 0;
+    @include breakpoint(phablet){
+      width: 95%;
+      float:none;
+    }
+    @include breakpoint(laptop){
+      max-width: 1140px;
+      width: 80%;
+    }
+    }
+  }
+    .related-lists {
+      width: 100%;
+    @include breakpoint(phablet){
+      max-width: 1140px;
+      margin:2em auto 0;
+      float:none;
+    }
+        .related-content {
+    width: 100%;
+    margin: 0 0 1em 0;
+     @include breakpoint(tablet){
+      width: 45%;
+      margin: 1.125em 2.5%;
+     }
+    }
+    }
+
+  }
+
+
   .article-metadata {
-  	display:none; //only for now
-  	background-color: #dbd7ce;
+  	background-color: $metadata;
+      display:block;
+      padding: 0.5em;
   	h1 {font-size: 1.2em;}
   	ul {
   		margin: 0;padding:0;
@@ -15,24 +56,14 @@
   		}
   	}
   	@include breakpoint(phablet){
-  		display:block;
   		float:left;
-  		width: 25%;
-  		margin: 0 1em 0 -5em;
-  		padding: 0.5em;
+  		width: 40%;
+  		margin: 0 1em 0 -2em;
   	}
+    @include breakpoint(laptop){
+      width: 25%;
+      margin: 0 1em 1em -5em;
+    }
   }
 
-  .article {
-  	@include breakpoint(tablet){
-  		width: 80%;
-  		float:none;
-  		margin: 1em auto 0;
-  	}
-  }
-
-  .articles {
-  	.related-lists {
-  		width: 45%;
-  	}
-  }
+  

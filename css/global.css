@@ -689,7 +689,6 @@ dd a { color: #333; }
   .news-listing h3 { font-size: 0.9em; }
   .section { margin: 0 auto; width: 100%; padding: 0 2%; max-width: 1600px; }
   .home-cta, .rwd-sections, .starting-rwd, .footer-dark { padding-left: 2%; padding-right: 2%; }
-  .content { width: 100%; max-width: 1140px; float: none; }
   .home .content { max-width: none; }
   .section-box p { font-size: 1em; }
   .section-box h2 { padding-top: 0.45em; }
@@ -738,15 +737,22 @@ dd a { color: #333; }
 .home-cta { padding-top: 0; }
 
 /* ARRTILCESs */
-.article-metadata { display: none; background-color: #dbd7ce; }
+.content { width: 100%; }
+
+.articles .content .article { width: 100%; margin: 1em auto 0; }
+@media (min-width: 37.5em) { .articles .content .article { width: 95%; float: none; } }
+@media (min-width: 64em) { .articles .content .article { max-width: 1140px; width: 80%; } }
+.articles .related-lists { width: 100%; }
+@media (min-width: 37.5em) { .articles .related-lists { max-width: 1140px; margin: 2em auto 0; float: none; } }
+.articles .related-lists .related-content { width: 100%; margin: 0 0 1em 0; }
+@media (min-width: 50em) { .articles .related-lists .related-content { width: 45%; margin: 1.125em 2.5%; } }
+
+.article-metadata { background-color: #dbd7ce; display: block; padding: 0.5em; }
 .article-metadata h1 { font-size: 1.2em; }
 .article-metadata ul { margin: 0; padding: 0; }
 .article-metadata ul li { list-style-type: none; margin-left: 0; }
-@media (min-width: 37.5em) { .article-metadata { display: block; float: left; width: 25%; margin: 0 1em 0 -5em; padding: 0.5em; } }
-
-@media (min-width: 50em) { .article { width: 80%; float: none; margin: 1em auto 0; } }
-
-.articles .related-lists { width: 45%; }
+@media (min-width: 37.5em) { .article-metadata { float: left; width: 40%; margin: 0 1em 0 -2em; } }
+@media (min-width: 64em) { .article-metadata { width: 25%; margin: 0 1em 1em -5em; } }
 
 /*This is some shit
 
