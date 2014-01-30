@@ -153,6 +153,7 @@ figure {  margin-bottom: $margin;
 figcaption {color: $red;
             font-family: $museo;
             font-style: italic;
+            margin: 1em 0 1.25em;
             }
 figcaption.quote:before {content: "\2014  ";}
 figcaption.small {font-size: 0.875em; line-height: 1.125em;}

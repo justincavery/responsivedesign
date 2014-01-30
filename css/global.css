@@ -270,7 +270,7 @@ figure { margin-bottom: 1.125em; }
 
 .related .no-articles { font-style: 1.0625em; font-weight: bold; }
 
-figcaption { color: #cc4e46; font-family: "museo-slab", serif; font-style: italic; }
+figcaption { color: #cc4e46; font-family: "museo-slab", serif; font-style: italic; margin: 1em 0 1.25em; }
 
 figcaption.quote:before { content: "\2014  "; }
 
@@ -738,7 +738,10 @@ dd a { color: #333; }
 
 /* ARRTILCESs */
 .content { width: 100%; }
+@media (min-width: 50em) { .content { max-width: 1140px; float: none; } }
 
+.articles figure img { box-shadow: 2px 2px 15px #ccc; }
+.articles .content { float: left; max-width: none; }
 .articles .content .article { width: 100%; margin: 1em auto 0; }
 @media (min-width: 37.5em) { .articles .content .article { width: 95%; float: none; } }
 @media (min-width: 64em) { .articles .content .article { max-width: 1140px; width: 80%; } }

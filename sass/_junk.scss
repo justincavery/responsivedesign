@@ -6,11 +6,18 @@
 
 .content {
   width: 100%;
+  @include breakpoint(tablet){
+    max-width: 1140px;
+    float: none;
+  }
 }
 
 
 .articles {
+  figure img { box-shadow: 2px 2px 15px #ccc;}
   .content {
+    float:left;
+    max-width: none;
     .article {
       width: 100%;
       margin: 1em auto 0;
