@@ -353,7 +353,7 @@ code a[href^=http] { background: none; }
 .grid-1-2 { width: 100%; }
 @media (min-width: 50em) { .grid-1-2 { width: 50%; } }
 
-.header { margin: 0 auto 1em; width: 100%; background-image: url(mysource_files/background-header-texture-mobile.png); background-repeat: repeat; float: left; width: 100%; background-size: 38px 133px; min-height: 134px; /*@include breakpoint (tablet){
+.header { margin: 0 auto 1em; width: 100%; background-image: url(mysource_files/background-header-texture-mobile.png); background-repeat: repeat; width: 100%; background-size: 38px 133px; min-height: 134px; /*@include breakpoint (tablet){
 		height: 170px;
 		padding-bottom:1em;}*/ }
 
@@ -755,7 +755,7 @@ dd a { color: #333; }
 .article-metadata ul { margin: 0; padding: 0; }
 .article-metadata ul li { list-style-type: none; margin-left: 0; }
 @media (min-width: 37.5em) { .article-metadata { float: left; width: 40%; margin: 0 1em 0 -2em; } }
-@media (min-width: 64em) { .article-metadata { width: 25%; margin: 0 1em 1em -5em; } }
+@media (min-width: 64em) { .article-metadata { width: 25%; margin: 0 2em 1em -5em; } }
 
 /*This is some shit
 
