@@ -115,7 +115,125 @@
 		<section id="inspire" class="rwd-sections">
 			<p class="large-introduction"><strong>Still not sure what you're looking for?</strong> Then let us help find out...</p>
 			<div class="decision-tree">
-			</div>
+			<div id="questions"><div id="q1"><div id="q2733_wrapper" class="sq_question_wrapper">Have you heard of Responsive Design before?<br>
+<ul><li><input type="radio" name="Have you heard of Responsive Design before?" value="Yes" id="q2733" onclick="get_next_step(this.value,2733) " class="sq-form-field"><label for="q2733">Yes</label></li><li><input type="radio" name="Have you heard of Responsive Design before?" value="No" id="q2733_1" onclick="get_next_step(this.value,2733) " class="sq-form-field"><label for="q2733_1">No</label></li></ul>
+</div><div id="q2"><input id="q2737_points" name="q2737_points" type="hidden" value="0"><div id="q2737_wrapper" class="sq_question_wrapper">Great. In that case what describes you the best?<br>
+<ul><li><input type="radio" name="Great. In that case what describes you the best?" value="uxdesigner" id="q2737" onclick="get_next_step(this.value,2737) " class="sq-form-field"><label for="q2737">I'm a UX/Designer looking for responsive design techniques</label></li><li><input type="radio" name="Great. In that case what describes you the best?" value="managestrategy" id="q2737_1" onclick="get_next_step(this.value,2737) " class="sq-form-field"><label for="q2737_1">I'm in management and need help with strategy, workflow &amp; project management</label></li><li><input type="radio" name="Great. In that case what describes you the best?" value="frontenddev" id="q2737_2" onclick="get_next_step(this.value,2737) " class="sq-form-field"><label for="q2737_2">I'm building a site and need some development/implementation help</label></li><li><input type="radio" name="Great. In that case what describes you the best?" value="inspiration" id="q2737_3" onclick="get_next_step(this.value,2737) " class="sq-form-field"><label for="q2737_3">I'm looking for some inspiration from existing site examples</label></li><li><input type="radio" name="Great. In that case what describes you the best?" value="pattern" id="q2737_4" onclick="get_next_step(this.value,2737) " class="sq-form-field"><label for="q2737_4">I'm looking for some pattern libraries</label></li><li><input type="radio" name="Great. In that case what describes you the best?" value="newsarticles" id="q2737_5" onclick="get_next_step(this.value,2737) " class="sq-form-field"><label for="q2737_5">I'm just looking for some news and articles about RWD</label></li><li><input type="radio" name="Great. In that case what describes you the best?" value="browsing" id="q2737_6" onclick="get_next_step(this.value,2737) " class="sq-form-field"><label for="q2737_6">None of these sound like me:</label></li></ul>
+</div><div id="q3"><div class="sq_result_bodycopy">RWD requires a fresh look at your standard website project approach. You should consider your website/content strategy, how the project lifecycle changes and other areas.
+</div><div id="q4"></div></div></div></div></div>		<script type="text/javascript">
+		
+			var accum_points=new Array();
+			var curr_id = 1;
+				
+			function get_next_step(answer, question) 
+			{	
+
+				if (document.getElementById("q"+question).type == 'text'){
+					var result = decision_tree_validate_numeric(answer);
+					if (result == null) {
+						alert ('You must enter a numeric answer');
+						return;
+					}
+				}
+
+			    //extract the question number from the wrapper DIV so we can know where to place next question
+				var q_element = document.getElementById("q"+question+"_wrapper");
+				var req_div = q_element.parentNode;
+				curr_id = req_div.id;
+				curr_id = curr_id.substring(1);
+				curr_id = parseInt(curr_id);
+				  
+				try
+				{
+					xmlHttp=new XMLHttpRequest();
+				}
+				catch(e)
+				{
+					try
+					{
+						xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+					}
+					catch(e)
+					{
+						alert ("Your browser does not support XMLHTTP!");
+						return;
+					}
+				}
+				
+				var points = calculate_points(question);
+				var url = "http://responsivedesign.is/getting-started-with-rwd";
+				
+				xmlHttp.onreadystatechange = question_state_changed;
+				url=url+'?a_id='+answer+'&q_id='+question+'&pts='+points;
+				xmlHttp.open("GET", url, true);
+				xmlHttp.send(null);
+			}
+
+			function question_state_changed()
+			{
+				if (xmlHttp.readyState==4 && xmlHttp.status==200)
+				{ 		  
+				  var q_no = curr_id;
+				  q_no++;
+				  
+				  var nextdiv = document.getElementById("q"+q_no);
+				  var response = xmlHttp.responseText;
+				  nextdiv.innerHTML=response;
+				  
+				  //create another question DIV after this one ready to store the next answer.
+				  q_no++;
+				  var divIdName = "q"+q_no;
+				  var newdiv = document.createElement('div');
+				  newdiv.setAttribute("id",divIdName);
+				  nextdiv.appendChild(newdiv);								
+				}
+			}
+			
+			function calculate_points(question)
+			{
+				var points = 0;
+				var q_no = curr_id;
+				
+				var points_element = document.getElementById("q"+question+"_points");
+				var point_val = 0;
+				if (points_element != null) point_val = points_element.value;
+				accum_points[q_no] = parseFloat(point_val);
+				
+				
+				for (var i = 1; i <= q_no; i++) {
+					points = points + accum_points[i];
+				}
+				
+				return points;
+			}
+
+			function reset_questions()
+			{
+				get_next_step("EMPTY", 2733);
+				var first_q = document.getElementById("q2733");
+				if (first_q.type == "radio") {
+					var radio_boxes = document.getElementsByName(first_q.name);
+					for (var e = 0; e < radio_boxes.length; e++) {
+						if (radio_boxes[e].type == "radio") {
+							radio_boxes[e].checked = false;
+						}
+					}
+				} else if (first_q.type == "select-one") {
+					first_q.selectedIndex = "EMPTY";
+				} else if (first_q.type == "text") {
+					first_q.value = "";
+				}
+			}
+
+			function decision_tree_validate_numeric(answer)
+			{
+				answer.replace(/,/, "");
+				return answer.match(/(^$)|(^[-+]?\d*\.?\d+$)/);
+
+			}
+
+		</script>
+		 <br> <input type="reset" name="qReset" value="Reset" onclick="reset_questions() " class="sq-form-field" id="qReset"></div>
 			<!--<blockquote class="homepage-quote">This site gave me the basic understanding of responsive design and started me building my own sites this way,
 				now I just come back here to find any tips, tricks or resources that help me when I get stuck.</blockquote>
 		  Removed for now until some cool famous web people say nice things.  Are you cool and famous? Are you on the web? Do you have nice things to say? Then get in touch so we can add you here.-->

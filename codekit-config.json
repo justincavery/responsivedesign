@@ -2,6 +2,17 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
+    "\/images\/background-header-texture.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/background-header-texture.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/background-header-texture.jpg",
+      "initialSize" : 11139,
+      "fileType" : 4096
+    },
     "\/sass\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -180,6 +191,18 @@
       "inputAbbreviatedPath" : "\/parts\/related-articles.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/sass\/_socialicons.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_socialicons.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_socialicons.css",
+      "fileType" : 4,
+      "debugStyle" : 2
     },
     "\/decision-tree.php" : {
       "ignoreWasSetByUser" : 0,
@@ -535,6 +558,15 @@
       "initialSize" : 3585,
       "fileType" : 4096
     },
+    "\/index.php.bak.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php.bak.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/css\/mysource_files\/background-header-texture-mobile.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -545,15 +577,6 @@
       "outputAbbreviatedPath" : "\/css\/mysource_files\/background-header-texture-mobile.png",
       "initialSize" : 7453,
       "fileType" : 8192
-    },
-    "\/index.php.bak.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php.bak.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/images\/rwd-sprite.png" : {
       "ignoreWasSetByUser" : 0,
@@ -869,16 +892,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/images\/background-header-texture.jpg" : {
+    "\/js\/socialicons.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/background-header-texture.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/background-header-texture.jpg",
-      "initialSize" : 11139,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/js\/socialicons.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/socialicons-ck.js",
+      "fileType" : 64
     },
     "\/js\/jquery.fittext.js" : {
       "ignoreWasSetByUser" : 0,
@@ -918,6 +941,13 @@
       "type" : 1,
       "position" : 3,
       "linkedFileAbbreviatedPath" : "\/js\/respond.min.js",
+      "baseFileAbbreviatedPath" : "\/js\/global.js",
+      "followForSyntaxChecking" : 1
+    },
+    {
+      "type" : 1,
+      "position" : 4,
+      "linkedFileAbbreviatedPath" : "\/js\/socialicons.js",
       "baseFileAbbreviatedPath" : "\/js\/global.js",
       "followForSyntaxChecking" : 1
     }

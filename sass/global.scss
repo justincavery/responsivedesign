@@ -108,7 +108,7 @@ code  a[href^=http] {
 .rwd-sections {
 	background-color: $pale;
 	a {
-		border-bottom: 1px solid rgba(204, 78, 70, 0.5);
+		border-bottom: 1px dashed rgba(204, 78, 70, 0.5);
 	}
 }
 .section {
