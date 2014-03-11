@@ -250,7 +250,7 @@ code { font-size: 0.875em; }
 
 .large-introduction { font-size: 1.4375em; font-weight: 300; color: #a43730; font-family: "museo-slab",'helvetica neue', helvetica,  serif; padding: 0 0 1em 0; float: left; margin: 0; }
 
-blockquote { width: 95%; padding: 0.5em 0 1em 2em; float: left; margin-bottom: 0; margin-left: 0; border-left: 1.125em solid #a43730; background-color: rgba(238, 231, 221, 0.2); line-height: 1.6em; }
+blockquote { width: 95%; padding: 0.5em 0 1em 1.5em; float: left; margin-bottom: 0; margin-left: 0; border-left: 1.125em solid #a43730; background-color: rgba(238, 231, 221, 0.2); line-height: 1.6em; }
 
 blockquote.fancy { font-size: 1.4375em; font-weight: 300; font-style: italic; line-height: 2.916666667em; color: #a43730; font-family: "museo-slab",'helvetica neue', helvetica,  serif; border-top: 1px solid #b1aca4; border-left: 0; /*  border-bottom: 1px solid #b1aca4; Removed because the figcaption looked separate from the quote*/ }
 
@@ -759,6 +759,10 @@ dd a { color: #333; }
 .decision-tree ul li input { box-shadow: none; margin-right: 0.5em; height: 1.6em; }
 .decision-tree ul li label { font-size: 0.8em; }
 .decision-tree #questions { font-size: 1.25em; }
+
+.news blockquote { float: none; }
+.news blockquote p { font-size: 1.2em; margin: 0; font-style: oblique; }
+.news.row { border-bottom: solid 1px #ccc; padding-bottom: 1em; margin-bottom: 2em; }
 
 /*This is some shit
 
