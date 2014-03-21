@@ -419,7 +419,6 @@ nav {
 .tweet, .subscribe, .section-box {
 	width: 100%;
 	float:left;
-
 }
 
 .homepage-quote {
@@ -586,7 +585,8 @@ footer {
 	float:left;
 	padding:0.25em 1em 2em;
 	@include breakpoint(tablet){
-		border-right: 1px solid $paleborder;}
+		margin: 2em 0;
+}
 
 	h2 {
 		color: $pale;
