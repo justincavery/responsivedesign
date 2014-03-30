@@ -219,7 +219,7 @@ BREAKPOINTS
 @font-face { font-family: 'Entypo'; src: url("mysource_files/entypo.eot?#") format("eot"), url("mysource_files/entypo.woff") format("woff"), url("mysource_files/entypo.ttf") format("truetype"); }
 [data-icon]:before { font-family: 'Entypo'; font-weight: 400 !important; content: attr(data-icon); text-transform: none; margin-right: 3px; position: relative; top: 3px; font-size: 30px; line-height: 0; }
 
-body { background-color: #ede6dc; font-size: 16px; font-family: "RobotoRegular", helvetica, sans-serif; color: #1e1e1c; }
+body { background-color: #ede6dc; font-size: 18px; font-family: "RobotoRegular", helvetica, sans-serif; color: #1e1e1c; }
 
 h1, h2, h3, h4, h5 { text-transform: uppercase; text-rendering: optimizeLegibility; font-family: "RobotoRegular", helvetica, sans-serif; font-weight: 300; }
 
@@ -465,7 +465,7 @@ end this may need to be added */ }
 @media (min-width: 50em) { .starting-rwd .section-box { width: 30.75%; }
   .starting-rwd .section-box:nth-child(3n) { margin-right: 0; } }
 
-.button { height: 1.8em; line-height: 1.8em; text-transform: uppercase; text-align: center; font-family: "RobotoRegular", helvetica, sans-serif; display: block; border-radius: 10px; font-weight: 600; width: 100%; -moz-transition: all, 0.5s, ease; -o-transition: all, 0.5s, ease; -webkit-transition: all, 0.5s, ease; transition: all, 0.5s, ease; }
+.button { line-height: 1.8em; text-transform: uppercase; text-align: center; font-family: "RobotoRegular", helvetica, sans-serif; display: block; border-radius: 10px; font-weight: 600; width: 100%; -moz-transition: all, 0.5s, ease; -o-transition: all, 0.5s, ease; -webkit-transition: all, 0.5s, ease; transition: all, 0.5s, ease; }
 
 .button:after { position: relative; content: " >>"; font-size: 0.8em; top: -0.15em; }
 
@@ -738,9 +738,9 @@ dd a { color: #333; }
 
 .articles figure img { box-shadow: 2px 2px 15px #ccc; }
 .articles .content { float: left; max-width: none; }
-.articles .content .article { width: 100%; margin: 1em auto 0; }
-@media (min-width: 37.5em) { .articles .content .article { width: 95%; float: none; } }
-@media (min-width: 64em) { .articles .content .article { max-width: 1140px; width: 80%; } }
+.articles .content .article { width: 100%; margin: 1em auto 0; background-color: rgba(255, 255, 255, 0.7); }
+@media (min-width: 37.5em) { .articles .content .article { width: 95%; float: none; box-shadow: 0px 1px 5px; padding: 1em 2em; } }
+@media (min-width: 64em) { .articles .content .article { max-width: 1140px; width: 70%; } }
 .articles .related-lists { width: 100%; }
 @media (min-width: 37.5em) { .articles .related-lists { max-width: 1140px; margin: 2em auto 0; float: none; } }
 .articles .related-lists .related-content { width: 100%; margin: 0 0 1em 0; }

@@ -21,13 +21,16 @@
     .article {
       width: 100%;
       margin: 1em auto 0;
+      background-color: rgba(255,255,255,0.7);
     @include breakpoint(phablet){
       width: 95%;
       float:none;
+      box-shadow: 0px 1px 5px;
+      padding:1em 2em;
     }
     @include breakpoint(laptop){
       max-width: 1140px;
-      width: 80%;
+      width: 70%;
     }
     }
   }
