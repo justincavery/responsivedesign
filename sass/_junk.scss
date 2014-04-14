@@ -20,7 +20,7 @@
     max-width: none;
     .article {
       width: 100%;
-      margin: 1em auto 0;
+      margin: 1em auto;
       background-color: rgba(255,255,255,0.7);
     @include breakpoint(phablet){
       width: 95%;
@@ -123,6 +123,37 @@ article.news {
     margin-bottom: 2em;
   }
 }
+
+
+
+// FORMS GO HERE
+
+.content {
+  form {
+    fieldset {
+      padding: 1em;
+      margin: 1em auto;
+    }
+    .form-question {
+
+    }
+    label {
+      width:100%;
+    }
+    input {
+      width: 100%;
+      margin-bottom: $padding;
+    }
+    input[type=submit]{}
+    textarea {width: 100%; max-width: 100%;}
+  }
+}
+
+
+
+
+
+
 
 
   

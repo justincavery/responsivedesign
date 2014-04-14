@@ -46,9 +46,11 @@ a {color: $red;
 /*	Forms  */
 input, button {
 	font-family: $roboto;
-	text-transform: uppercase;
 }
 
+button {
+		text-transform: uppercase;
+}
 
 input, input[type="search"] {
 		height: 2em;
