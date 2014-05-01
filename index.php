@@ -14,7 +14,7 @@
 						<!--  Maybe add this as the new story on the golive of the new site.
 						<h1><span>Introduction</span> to responsive web design</h1>
 						<p>...the combination of flexible grids, flexible imags and media queries. It allows you to write once, publish every-any-where.</p>-->
-						<h1>Interview with Daniel Mall</h1>
+						<h1>Introduction to responsive web design</h1>
 						    <p>Dan Mall takes some time away from his new studio at Super Friendly to talk us through his own responsive design process and shares a few of his experiences with his own projects.
 						    Secondary navigation in responsive design</p></article>
 						  </a>
