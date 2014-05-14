@@ -454,6 +454,11 @@ end this may need to be added */ }
 .search-home h2 { text-align: center; font-size: 2.3em; margin: 0; }
 .search-home small { float: left; display: block; padding: 1em; }
 
+.fb-search { width: 100%; position: relative; background-color: white; }
+.fb-search form input[type="search"] { margin-bottom: 1.125em; }
+.fb-search button { width: 100%; border: 1px solid #cc4e46; }
+.fb-search button:hover { background-color: #cc4e46; }
+
 .home-cta span.cta-white { color: #a43730; }
 
 .home-cta { float: left; width: 100%; padding: .25em 1em; padding-top: 1em; }

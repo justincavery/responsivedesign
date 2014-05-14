@@ -33,3 +33,19 @@
 display: block;
 padding: 1em;}
 }
+
+// Funnelback Search Page
+
+.fb-search {
+width: 100%;
+position: relative;
+background-color: lighten($red, 50%);
+
+  form input[type="search"] { margin-bottom: $padding;}
+  button { width: 100%; border: 1px solid $red;
+    &:hover { background-color: $red; }
+  }
+}
+
+
+

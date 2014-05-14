@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16828",
+"creatorBuild": "16921",
 "files": {
 	"\/amazium.php": {
 		"fileType": 8192,
@@ -8,6 +8,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/amazium.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/art.php": {
@@ -16,6 +17,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/art.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/article-dan-mall.php": {
@@ -24,6 +26,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/article-dan-mall.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/article-framework.php": {
@@ -32,6 +35,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/article-framework.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/article-net.php": {
@@ -40,6 +44,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/article-net.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/articles.php": {
@@ -48,6 +53,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/articles.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/books.html": {
@@ -56,6 +62,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/books.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/config.rb": {
@@ -64,6 +71,16 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/config.rb",
 		"outputAbbreviatedPath": "\/config.rb",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/contact.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/global.css": {
@@ -72,6 +89,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/global.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/mysource_files\/background-dark-texture.jpg": {
@@ -81,6 +99,7 @@
 		"initialSize": 3585,
 		"inputAbbreviatedPath": "\/css\/mysource_files\/background-dark-texture.jpg",
 		"outputAbbreviatedPath": "\/css\/mysource_files\/background-dark-texture.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -91,6 +110,7 @@
 		"initialSize": 7453,
 		"inputAbbreviatedPath": "\/css\/mysource_files\/background-header-texture-mobile.png",
 		"outputAbbreviatedPath": "\/css\/mysource_files\/background-header-texture-mobile.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -101,6 +121,7 @@
 		"initialSize": 11139,
 		"inputAbbreviatedPath": "\/css\/mysource_files\/background-header-texture.jpg",
 		"outputAbbreviatedPath": "\/css\/mysource_files\/background-header-texture.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -111,6 +132,7 @@
 		"initialSize": 5976,
 		"inputAbbreviatedPath": "\/css\/mysource_files\/background-light-texture.jpg",
 		"outputAbbreviatedPath": "\/css\/mysource_files\/background-light-texture.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -121,6 +143,7 @@
 		"initialSize": 40207,
 		"inputAbbreviatedPath": "\/css\/mysource_files\/background-texture.jpg",
 		"outputAbbreviatedPath": "\/css\/mysource_files\/background-texture.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -131,6 +154,7 @@
 		"initialSize": 1954,
 		"inputAbbreviatedPath": "\/css\/mysource_files\/logo-mobile.png",
 		"outputAbbreviatedPath": "\/css\/mysource_files\/logo-mobile.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -141,6 +165,7 @@
 		"initialSize": 5813,
 		"inputAbbreviatedPath": "\/css\/mysource_files\/logo.png",
 		"outputAbbreviatedPath": "\/css\/mysource_files\/logo.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -151,6 +176,7 @@
 		"initialSize": 15670,
 		"inputAbbreviatedPath": "\/css\/mysource_files\/rwd-sprite.png",
 		"outputAbbreviatedPath": "\/css\/mysource_files\/rwd-sprite.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -161,6 +187,7 @@
 		"initialSize": 1716,
 		"inputAbbreviatedPath": "\/css\/mysource_files\/search-logo-s.png",
 		"outputAbbreviatedPath": "\/css\/mysource_files\/search-logo-s.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -170,6 +197,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/print.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/decision-tree.php": {
@@ -178,6 +206,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/decision-tree.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/design.php": {
@@ -186,6 +215,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/design.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/example-a-z.html": {
@@ -194,6 +224,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/example-a-z.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/example-beds.php": {
@@ -202,6 +233,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/example-beds.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/Example-Grolsch.html": {
@@ -210,6 +242,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Example-Grolsch.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/frameworks.php": {
@@ -218,6 +251,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/frameworks.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/frameworks.php.bak.php": {
@@ -226,6 +260,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/frameworks.php.bak.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/Google Analytics Responsive Design Dashboard   Responsive Web Design.html": {
@@ -234,6 +269,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Google Analytics Responsive Design Dashboard   Responsive Web Design.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/images\/amazium.jpg": {
@@ -243,6 +279,7 @@
 		"initialSize": 64001,
 		"inputAbbreviatedPath": "\/images\/amazium.jpg",
 		"outputAbbreviatedPath": "\/images\/amazium.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -253,6 +290,7 @@
 		"initialSize": 3585,
 		"inputAbbreviatedPath": "\/images\/background-dark-texture.jpg",
 		"outputAbbreviatedPath": "\/images\/background-dark-texture.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -263,6 +301,7 @@
 		"initialSize": 7453,
 		"inputAbbreviatedPath": "\/images\/background-header-texture-mobile.png",
 		"outputAbbreviatedPath": "\/images\/background-header-texture-mobile.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -273,6 +312,7 @@
 		"initialSize": 11139,
 		"inputAbbreviatedPath": "\/images\/background-header-texture.jpg",
 		"outputAbbreviatedPath": "\/images\/background-header-texture.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -283,6 +323,7 @@
 		"initialSize": 5976,
 		"inputAbbreviatedPath": "\/images\/background-light-texture.jpg",
 		"outputAbbreviatedPath": "\/images\/background-light-texture.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -293,6 +334,7 @@
 		"initialSize": 40207,
 		"inputAbbreviatedPath": "\/images\/background-texture.jpg",
 		"outputAbbreviatedPath": "\/images\/background-texture.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -303,6 +345,7 @@
 		"initialSize": 1954,
 		"inputAbbreviatedPath": "\/images\/logo-mobile.png",
 		"outputAbbreviatedPath": "\/images\/logo-mobile.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -313,6 +356,7 @@
 		"initialSize": 5813,
 		"inputAbbreviatedPath": "\/images\/logo.png",
 		"outputAbbreviatedPath": "\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -323,6 +367,7 @@
 		"initialSize": 15670,
 		"inputAbbreviatedPath": "\/images\/rwd-sprite.png",
 		"outputAbbreviatedPath": "\/images\/rwd-sprite.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -333,6 +378,7 @@
 		"initialSize": 1716,
 		"inputAbbreviatedPath": "\/images\/search-logo-s.png",
 		"outputAbbreviatedPath": "\/images\/search-logo-s.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -343,6 +389,7 @@
 		"initialSize": 1.43544e+06,
 		"inputAbbreviatedPath": "\/images\/website-screenshot.png",
 		"outputAbbreviatedPath": "\/images\/website-screenshot.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -352,6 +399,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/index.php.bak.php": {
@@ -360,6 +408,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.php.bak.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/javascript.php": {
@@ -368,6 +417,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/javascript.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/js\/css3-mediaqueries.js": {
@@ -376,6 +426,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/css3-mediaqueries.js",
 		"outputAbbreviatedPath": "\/js\/min\/css3-mediaqueries-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -386,6 +437,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/global-ck.js",
 		"outputAbbreviatedPath": "\/js\/min\/global-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -396,6 +448,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/global.js",
 		"outputAbbreviatedPath": "\/js\/min\/global-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -406,6 +459,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery-1.9.1.min-ck.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery-1.9.1.min-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -416,6 +470,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery-1.9.1.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery-1.9.1.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -426,6 +481,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.fittext.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.fittext-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -436,6 +492,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.fitvids.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.fitvids-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -446,6 +503,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/modernizr-2.0.6.min-ck.js",
 		"outputAbbreviatedPath": "\/js\/min\/modernizr-2.0.6.min-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -456,6 +514,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/modernizr-2.0.6.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/modernizr-2.0.6.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -466,6 +525,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/modernizr-2.6.2.js",
 		"outputAbbreviatedPath": "\/js\/min\/modernizr-2.6.2-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -476,6 +536,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/prism.js",
 		"outputAbbreviatedPath": "\/js\/min\/prism-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -486,6 +547,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/respond.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/respond.min-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -496,6 +558,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/socialicons.js",
 		"outputAbbreviatedPath": "\/js\/min\/socialicons-ck.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -506,6 +569,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/navigation.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/new-article.php": {
@@ -514,6 +578,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/new-article.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/parts\/doctype.php": {
@@ -522,6 +587,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/parts\/doctype.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/parts\/doctype1.php": {
@@ -530,6 +596,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/parts\/doctype1.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/parts\/footer.php": {
@@ -538,6 +605,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/parts\/footer.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/parts\/header.php": {
@@ -546,6 +614,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/parts\/header.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/parts\/javascript.php": {
@@ -554,6 +623,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/parts\/javascript.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/parts\/nav.php": {
@@ -562,6 +632,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/parts\/nav.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/parts\/related-articles.php": {
@@ -570,6 +641,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/parts\/related-articles.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/README.md": {
@@ -581,6 +653,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
 		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/resources.php": {
@@ -589,6 +662,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/resources.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/sass\/_37_5ems.scss": {
@@ -600,6 +674,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_37_5ems.scss",
 		"outputAbbreviatedPath": "\/css\/_37_5ems.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -615,6 +690,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_50ems.scss",
 		"outputAbbreviatedPath": "\/css\/_50ems.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -630,6 +706,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_64ems.scss",
 		"outputAbbreviatedPath": "\/css\/_64ems.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -645,6 +722,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_bits.scss",
 		"outputAbbreviatedPath": "\/css\/_bits.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -660,6 +738,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_grid.scss",
 		"outputAbbreviatedPath": "\/css\/_grid.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -675,6 +754,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_icons.scss",
 		"outputAbbreviatedPath": "\/css\/_icons.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -690,6 +770,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_junk.scss",
 		"outputAbbreviatedPath": "\/css\/_junk.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -705,6 +786,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_normalise.scss",
 		"outputAbbreviatedPath": "\/css\/_normalise.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -720,6 +802,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_print.scss",
 		"outputAbbreviatedPath": "\/css\/_print.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -735,6 +818,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_prism.scss",
 		"outputAbbreviatedPath": "\/css\/_prism.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -750,6 +834,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_rounded.scss",
 		"outputAbbreviatedPath": "\/css\/_rounded.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -765,6 +850,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_search.scss",
 		"outputAbbreviatedPath": "\/css\/_search.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -780,6 +866,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_socialicons.scss",
 		"outputAbbreviatedPath": "\/css\/_socialicons.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -795,6 +882,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/_typography.scss",
 		"outputAbbreviatedPath": "\/css\/_typography.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -810,6 +898,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/global.scss",
 		"outputAbbreviatedPath": "\/css\/global.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -825,6 +914,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/ie.scss",
 		"outputAbbreviatedPath": "\/css\/ie.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -840,6 +930,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/print.scss",
 		"outputAbbreviatedPath": "\/css\/print.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -855,6 +946,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/screen.scss",
 		"outputAbbreviatedPath": "\/css\/screen.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -867,6 +959,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/strategy.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/studios.html": {
@@ -875,6 +968,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/studios.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/style.php": {
@@ -883,6 +977,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/style.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/template.php": {
@@ -891,6 +986,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/template.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/video.php": {
@@ -899,6 +995,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/video.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/videos.html": {
@@ -907,6 +1004,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/videos.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		}
 	},
@@ -986,6 +1084,14 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"no_empty_param_list": {
 			"active": 0,
 			"flagValue": -1
@@ -995,6 +1101,10 @@
 			"flagValue": -1
 			},
 		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1020,6 +1130,10 @@
 			},
 		"no_trailing_whitespace": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"non_empty_constructor_needs_parens": {
@@ -1140,10 +1254,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"gcl": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"globalstrict": {
 			"active": 0,
 			"flagValue": -1
@@ -1256,10 +1366,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"onevar": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"phantom": {
 			"active": 0,
 			"flagValue": -1
@@ -1296,10 +1402,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"smarttabs": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"strict": {
 			"active": 0,
 			"flagValue": -1
@@ -1312,10 +1414,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"trailing": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"typed": {
 			"active": 0,
 			"flagValue": -1
@@ -1326,10 +1424,6 @@
 			},
 		"unused": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"white": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"withstmt": {
