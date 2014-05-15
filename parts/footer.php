@@ -2,7 +2,7 @@
 		<div class="footer">
 			<div class="subscribe"><h2>Subscribe to RDWeekly:</h2>
 				<p>Add your email address and receive weekly emails about all things Responsive.</p>
-				<input type="email" placeholder="Email Address" id="email-address"><button type="submit" >Sign Up</button>
+				<input type="email" placeholder="Email Address" id="email-address"><button type="submit" class="input-button-light">Sign Up</button>
 			</div>
 
 			<div class="social">

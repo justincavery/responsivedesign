@@ -63,14 +63,6 @@ input, input[type="search"] {
 		padding: 0 5px;
 		box-shadow: inset 1px 1px 3px #CCC;
 	}
-button {
-		float:left;
-		background-color:$pale;
-		@include rounded(top-right, 5px);
-		@include rounded(bottom-right, 5px);
-		height: 2em;
-		border:0px;
-	}
 
 img, figure, video, audio, embed, svg {
 	width: 100%;

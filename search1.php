@@ -373,7 +373,7 @@
                                                 <div>
                                                 <label for="query" style="text-indent: -9999em;">Search</label>
                                                 <input name="query" id="query" type="text" value="responsive design" accesskey="q">
-                                                <button type="submit"><span data-icon="🔍"></span><span class="show-on-large">Search</span></button>
+                                                <button type="submit" class="button"><span data-icon="🔍"></span><span class="show-on-large">Search</span></button>
                                                 <input type="hidden" name="collection" value="responsive-design-live">
                                                 
                                                             
@@ -936,7 +936,7 @@
 <form id="mc-embedded-subscribe-form" class="validate" action="http://rrresponsive.us4.list-manage2.com/subscribe/post?u=559bc631fe5294fc66f5f7f89&amp;id=df65b6d7c8" method="post" name="mc-embedded-subscribe-form" target="_blank">
 
 <input type="email" name="EMAIL" value="">
-<button id="mc-embedded-subscribe" type="submit" name="subscribe">Sign Up</button>
+<button id="mc-embedded-subscribe" type="submit" name="subscribe" class="input-button-light">Sign Up</button>
 </form>
 				</div>
 		</div>
