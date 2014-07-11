@@ -36,7 +36,7 @@ a {color: $red;
 	table tbody tr:nth-child(even) { background: #f9f9f9; }
 	table tbody tr td { color: #333; padding: 9px 10px; vertical-align: top; border: none; }
 
-/*	Blockquotes  
+/*	Blockquotes
 	blockquote, blockquote p {  }
 	blockquote { padding: .5em 1.2em 0 1.2em; }
 	blockquote cite { display: block; font-size: 0.8em; color: #555; }
@@ -75,7 +75,7 @@ article a[href^=http] {
 	padding-right:0.5em;*/
 	background-color: rgba(255,255,255,0.5);
 	}
-	
+
 code  a[href^=http] {
 	background:none;
 }
@@ -96,7 +96,7 @@ code  a[href^=http] {
 }
 
 .header header {
-	
+
 }
 
 .rwd-sections {
@@ -111,7 +111,7 @@ code  a[href^=http] {
 
 #logo {
 	width: 35.94%;
-	margin: 2px 0.25em 0px;
+	margin: 0 0.25em 0;
 	float:left;
 	@include breakpoint(phablet){
 		width: 26.54%;}
@@ -121,7 +121,13 @@ code  a[href^=http] {
 	@include breakpoint(laptop){
 		float:none;
 	}
-	svg a {float:left} // adjusts the height of the navigation bar.
+	svg {
+		height:55px;
+		@include breakpoint(phablet){
+			height:auto;
+		}
+	a {float:left} // adjusts the height of the navigation bar.
+	}
 }
 
 // Logo Styles
@@ -150,37 +156,24 @@ code  a[href^=http] {
 }
 }
 
-/* Do the SVG Logo at the end, add .no-svg to the rules above
-#logo {
-	width: 35.94%;
-	margin: 15px 0.25em 3px;
-	float:left;
-	@include breakpoint(phablet){
-		width: 10.04%;
-		height:75px;}
-	@include breakpoint(tablet){
-}
-	@include breakpoint(laptop){
-		float:none;}
-}
-*/
-
 #rwdis {
 	position:absolute;
-	width: 100%;
-	padding: 0;
+	width: 53%;
+	padding: 5px 0;
 	font-family: $roboto;
 	letter-spacing: -0.05em;
-	font-size: 1.3em;
-	text-align: center;
+	font-size: 1.9em;
+	text-align:right;
+	right:3%;
 	a {
 	color: #f2f0e0;
-	font-size: 1.17em;
 	text-shadow: 0px -1px 1px #040404;
 	text-align: right;
 	}
 	@include breakpoint(phablet){
+		text-align: center;
 		font-size:2em;
+		width: 70%;
 	}
 	@include breakpoint(tablet){
 		position: initial;
@@ -192,33 +185,32 @@ code  a[href^=http] {
 	}
 
 header .search {
-		float:right;
-		width: 60%;
+		float:left;
+		width: 100%%;
+		@include breakpoint(phablet){width:70%;}
 	}
 .advanced-rwd .search {
 	float:left;
 	position: relative;
 }
 .search {
-	width: 50%;
 	padding: 0.25em 0 0.25em 0.7em;
-	margin-top:46px;
 	font-family: $roboto;
 			input {
-				width: 60%;
+				width: 85%;
 				border-right: 1px solid #a38a89;
 						@include rounded(top-right, 0px);
 						@include rounded(bottom-right, 0px);
 			}
 			button {
-				width:25%;
+				width:12%;
 				color:$red;
 				background-repeat: no-repeat;
 				background-position: 2px 7px;
 				span[data-icon]::before {color:$red;}
 
 			}
-	@include breakpoint(phablet){width:71%;}
+	@include breakpoint(phablet){width:70%;}
 }
 
 .mobile-nav {
@@ -379,9 +371,8 @@ nav {
 }
 
 
-
-
 @import "search";
+
 .home-cta span.cta-white {
 	color:$blockquote-color;
 }
@@ -409,7 +400,7 @@ nav {
 			}
 		}
 	span {
-		padding: 1em;
+		padding: 1em 0;
 		font-family: $museo;
 		font-style: italic;
 		color:$pale;

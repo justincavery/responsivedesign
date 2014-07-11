@@ -1,0 +1,123 @@
+Hi and welcome to edition #113 of Responsive Design Weekly.
+
+This week the world stands still and many a sick day will be taken as the Football (or Soccer depending on where you grew up) World Cup launches.  In the the spirit of the start of the World Cup our feature site is one that shows all the games and times in a lovely responsive manner.  It's quick too because there are very few (are there even any) images loaded meaning a great experience around the world on any device, with any conneciton speed. Win win.
+
+This week we've got lots and lots of surprises for you. Aside from the usual series of great articles, tutorials, presentations etc we've also got more than $1000 worth of give aways to some upcoming conferences in Europe and the US.
+
+US - Christopher Schimitt
+
+- A ticket to ARTIFACT Conf in Providence. Coming off of ARTIFACT Austin--after seeing Austin's event come together, it's a really great show where there's so much content, inspiration is a natural by-product. And in Providence, we have a Responsive Typography session, too.
+
+- A ticket to CSS Dev Conf in New Orleans. CSS Dev Conf is a conference of community-submitted and community-voted sessions in a double-blind environment. As a CSS nerd, it's always been a treat the last two years and with it being in New Orleans this year, I have no reason to think its third year will be any different.
+
+I figure you could give out one ticket for ARTIFACT this week and a ticket to CSS Dev Conf the following week?
+
+I know they are physical conference--so some readers might not be able to go, but I bet if people could self-select themselves… say, "if you can make it to Rhode Island in late Sept, tweet at something something" :) and then you can pick a winner. Or you could do something different like set up a Google doc form or something. Just thinking out loud.
+
+Barcelona Conference - 5 free
+
+Twitter / yoavweiss: The sizes+srcset parts of the ...
+https://twitter.com/yoavweiss/status/476951088428777472
+yaaaaaay.
+
+=========================================================================================================================================================================================================================================================================================================
+
+HEADLINE
+
+Apple and Responsive Design ∙ An A List Apart Blog Post
+http://alistapart.com/blog/post/apple-and-responsive-design/
+Apple have been unusually backwards when it comes to making their sites responsive. Aside from the occasional media query on the homepage when featuring a new hardware release, strangely more often height queries, they have ignored the movement of the industry. Now it looks like they're beginning to provide this through the development of iOS apps and there's predictions for a full site refresh next year.
+
+
+
+
+
+
+ARTICLES
+
+Use Cases and Requirements for Element Queries
+http://responsiveimagescg.github.io/eq-usecases/
+Use cases is where everything always starts... or at least that's where everything should start. Now that we're beginning to see the light at the end of the tunnel for responsive images RICG are turning their attention on the next problem to solve.
+
+In addition to adding use cases, if you've written anything around the subject, or read an interesting post, please add it to the comments https://github.com/ResponsiveImagesCG/eq-usecases/issues/5
+
+Directing smartphone users to the page they actually wanted
+http://googlewebmastercentral.blogspot.sg/2014/06/faulty-redirects.html
+Google is taking the next step in steering people towards a responsive approach, or at least to a crappy experience of redirecting users to a home page when they want an article.
+
+Responsive images | No strong beliefs
+http://nostrongbeliefs.com/responsive-images/
+Another deep dive into the application of the new picture element. Tab Atkins even took the time to comment on the post and point out some issues with the <picture> and art direction.
+
+
+
+Building a responsive SVG map
+http://responsivenews.co.uk/post/87988072178/building-a-responsive-svg-map
+The BBC are jumping on the SVG bandwagon and are leading the way. For the recent UK elections they built a responsive SVG based mapping interface that took the data from the election results system and feeds it through as JSON. The results themselves formed the boundaries and the winning electorates received their colours from the Sass collection. Using D3 Zoom Behaviour API they manage the zooming and panning across all devices. Check out the article for a deeper look.
+
+Making ubuntu.com responsive: dealing with responsive images
+http://design.canonical.com/2014/06/making-ubuntu-com-responsive-dealing-with-responsive-images/
+A look at the process from inventory to deciding what to do with icons, sprites, rasters and everything in between.
+
+
+
+TUTORIAL
+
+Designing a responsive, Retina-friendly site
+This is a series, and brilliant series at that, of articles from Paul Stamatiou about redesigning his site into a retina friendly and responsive image site.
+
+http://paulstamatiou.com/responsive-retina-blog-design/
+
+Developing a responsive, Retina-friendly site (Part 1)
+http://paulstamatiou.com/responsive-retina-blog-development-part-1/
+
+Developing a responsive, Retina-friendly site (Part 2)
+http://paulstamatiou.com/responsive-retina-blog-development-part-2/
+
+Building With Gulp
+http://www.smashingmagazine.com/2014/06/11/building-with-gulp/
+I'll be the first to admit it, I haven't tried Gulp yet :( The secret is out, lets move swiftly on. This tutorial shows how you can started with Gulp, but more specifically if you're already using it you might want to jump down to "Reloading Changes In The Browser" and see how it works with LiveReload and BrowserSync (we've also got a quick screencast if you like BrowserSync)
+
+Checking Media Queries With Javascript
+http://www.paulund.co.uk/checking-media-queries-javascript
+A few basic tips around using window.matchMedia to call some functionality between a range of viewports.
+
+Create responsive SVG image maps
+http://www.creativebloq.com/netmag/create-responsive-svg-image-maps-51411831
+A full video tutorial along with a readable version that you can follow along with and copy and paste all the code. I like the idea of maps always being SVG because they always have boundaries defined, just like an SVG has.
+http://codepen.io/dudleystorey/pen/ltpmv
+
+Easy Responsive CSS Grid Layouts: 4 Different Methods
+http://www.sitepoint.com/easy-responsive-css-grid-layouts/
+
+
+INTERVIEW
+
+Ethan has been busy of late so this week we've got two interviews with the papa of RWD.
+
+Breakfast with Ethan Marcotte: Part One
+http://thepixellab.com.au/breakfast-with-ethan-marcotte-part-one-of-three/
+The Pixel Lab caught up with Ethan Marcotte during his trip to Australia for Web Directions RESPOND conference in Sydney. Check it out on soundcloud or read the transcript.
+
+Ethan Marcotte on how responsive web design came about
+http://www.creativebloq.com/netmag/ethan-marcotte-how-responsive-web-design-came-about-61411189
+
+VIDEO
+
+WWDC 2014 Session Videos - Apple Developer
+https://developer.apple.com/videos/wwdc/2014/#517-video
+After A list Apart's recent coverage of Apple being rubbish at RWD, they actually produced this video during the WWDC looking specifically at RWD. WOOT. The session starts out slow but it then gets in to some advanced and very specific Web Kit capabilities.
+
+=========================================================================================================================================================================================================================================================================================================
+
+
+
+Media Query 4
+
+- Pointer events/Hovers
+
+- Bandwidth
+
+
+http://www.mightydeals.com/deal/trainsimple3.html?ref=trainsimpleresponsicedesignweekly
+

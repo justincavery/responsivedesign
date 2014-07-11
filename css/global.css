@@ -305,7 +305,7 @@ table tbody tr:nth-child(even) { background: #f9f9f9; }
 
 table tbody tr td { color: #333; padding: 9px 10px; vertical-align: top; border: none; }
 
-/*	Blockquotes  
+/*	Blockquotes
 	blockquote, blockquote p {  }
 	blockquote { padding: .5em 1.2em 0 1.2em; }
 	blockquote cite { display: block; font-size: 0.8em; color: #555; }
@@ -358,9 +358,11 @@ code a[href^=http] { background: none; }
 
 .section { float: left; }
 
-#logo { width: 35.94%; margin: 2px 0.25em 0px; float: left; }
+#logo { width: 35.94%; margin: 0 0.25em 0; float: left; }
 @media (min-width: 37.5em) { #logo { width: 26.54%; } }
 @media (min-width: 64em) { #logo { float: none; } }
+#logo svg { height: 55px; }
+@media (min-width: 37.5em) { #logo svg { height: auto; } }
 #logo svg a { float: left; }
 
 #Laptop { fill: #3A3634; }
@@ -373,35 +375,22 @@ code a[href^=http] { background: none; }
 #Phone { fill: #F8F6EA; }
 @media (min-width: 50em) { #Phone { fill: #3A3634; } }
 
-/* Do the SVG Logo at the end, add .no-svg to the rules above
-#logo {
-	width: 35.94%;
-	margin: 15px 0.25em 3px;
-	float:left;
-	@include breakpoint(phablet){
-		width: 10.04%;
-		height:75px;}
-	@include breakpoint(tablet){
-}
-	@include breakpoint(laptop){
-		float:none;}
-}
-*/
-#rwdis { position: absolute; width: 100%; padding: 0; font-family: "RobotoRegular", helvetica, sans-serif; letter-spacing: -0.05em; font-size: 1.3em; text-align: center; }
-#rwdis a { color: #f2f0e0; font-size: 1.17em; text-shadow: 0px -1px 1px #040404; text-align: right; }
-@media (min-width: 37.5em) { #rwdis { font-size: 2em; } }
+#rwdis { position: absolute; width: 53%; padding: 5px 0; font-family: "RobotoRegular", helvetica, sans-serif; letter-spacing: -0.05em; font-size: 1.9em; text-align: right; right: 3%; }
+#rwdis a { color: #f2f0e0; text-shadow: 0px -1px 1px #040404; text-align: right; }
+@media (min-width: 37.5em) { #rwdis { text-align: center; font-size: 2em; width: 70%; } }
 @media (min-width: 50em) { #rwdis { position: initial; float: right; width: 61%; text-align: right; padding: 0 1em; margin-top: 5px; } }
 @media (min-width: 64em) { #rwdis { text-align: left; position: relative; width: 69%; font-size: 1.3em; left: 0; float: left; top: 6px; } }
 
-header .search { float: right; width: 60%; }
+header .search { float: left; width: 100%%; }
+@media (min-width: 37.5em) { header .search { width: 70%; } }
 
 .advanced-rwd .search { float: left; position: relative; }
 
-.search { width: 50%; padding: 0.25em 0 0.25em 0.7em; margin-top: 46px; font-family: "RobotoRegular", helvetica, sans-serif; }
-.search input { width: 60%; border-right: 1px solid #a38a89; border-top-right-radius: 0px; -moz-border-radius-top-right: 0px; -webkit-border-top-right-radius: 0px; border-bottom-right-radius: 0px; -moz-border-radius-bottom-right: 0px; -webkit-border-bottom-right-radius: 0px; }
-.search button { width: 25%; color: #cc4e46; background-repeat: no-repeat; background-position: 2px 7px; }
+.search { padding: 0.25em 0 0.25em 0.7em; font-family: "RobotoRegular", helvetica, sans-serif; }
+.search input { width: 85%; border-right: 1px solid #a38a89; border-top-right-radius: 0px; -moz-border-radius-top-right: 0px; -webkit-border-top-right-radius: 0px; border-bottom-right-radius: 0px; -moz-border-radius-bottom-right: 0px; -webkit-border-bottom-right-radius: 0px; }
+.search button { width: 12%; color: #cc4e46; background-repeat: no-repeat; background-position: 2px 7px; }
 .search button span[data-icon]::before { color: #cc4e46; }
-@media (min-width: 37.5em) { .search { width: 71%; } }
+@media (min-width: 37.5em) { .search { width: 70%; } }
 
 .mobile-nav { display: block; float: right; margin-right: 5%; height: 2em; text-transform: uppercase; }
 .mobile-nav a { color: #ede6dc; }
@@ -476,7 +465,7 @@ end this may need to be added */ }
 
 .home-cta { float: left; width: 100%; padding: .25em 1em; padding-top: 1em; }
 .home-cta a h2 { display: block; width: 100%; border-radius: 15px; background-color: #cc4e46; background-image: -webkit-gradient(linear, left top, left bottom, from(#d64246), to(#c23c3f)); background-image: -webkit-linear-gradient(top, #d64246, #c23c3f); background-image: -moz-linear-gradient(top, #d64246, #c23c3f); background-image: -o-linear-gradient(top, #d64246, #c23c3f); background-image: -ms-linear-gradient(top, #d64246, #c23c3f); background-image: linear-gradient(top, #d64246, #c23c3f); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#d64246', EndColorStr='#c23c3f'); color: #ede6dc; font-size: 1.8em; text-transform: uppercase; padding: .35em 1em .2em 1em; font-family: "RobotoRegular", helvetica, sans-serif; text-align: center; text-shadow: 0px -1px 1px #333; }
-.home-cta span { padding: 1em; font-family: "museo-slab", serif; font-style: italic; color: #ede6dc; font-size: 1.4em; display: block; letter-spacing: .1em; }
+.home-cta span { padding: 1em 0; font-family: "museo-slab", serif; font-style: italic; color: #ede6dc; font-size: 1.4em; display: block; letter-spacing: .1em; }
 @media (max-width: 37.5em) { .home-cta span { padding-top: 0.5em; border-top: 2px solid; } }
 
 .rwd-sections { box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.25); float: left; width: 100%; padding: 1em; }
