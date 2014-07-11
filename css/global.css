@@ -381,13 +381,13 @@ code a[href^=http] { background: none; }
 @media (min-width: 50em) { #rwdis { position: initial; float: right; width: 61%; text-align: right; padding: 0 1em; margin-top: 5px; } }
 @media (min-width: 64em) { #rwdis { text-align: left; position: relative; width: 69%; font-size: 1.3em; left: 0; float: left; top: 6px; } }
 
-header .search { float: left; width: 100%%; }
-@media (min-width: 37.5em) { header .search { width: 70%; } }
+header .search { float: left; width: 100%; }
+@media (min-width: 37.5em) { header .search { width: 44%; position: absolute; right: 0; top: 45px; } }
 
 .advanced-rwd .search { float: left; position: relative; }
 
 .search { padding: 0.25em 0 0.25em 0.7em; font-family: "RobotoRegular", helvetica, sans-serif; }
-.search input { width: 85%; border-right: 1px solid #a38a89; border-top-right-radius: 0px; -moz-border-radius-top-right: 0px; -webkit-border-top-right-radius: 0px; border-bottom-right-radius: 0px; -moz-border-radius-bottom-right: 0px; -webkit-border-bottom-right-radius: 0px; }
+.search input { width: 75%; border-right: 1px solid #a38a89; border-top-right-radius: 0px; -moz-border-radius-top-right: 0px; -webkit-border-top-right-radius: 0px; border-bottom-right-radius: 0px; -moz-border-radius-bottom-right: 0px; -webkit-border-bottom-right-radius: 0px; }
 .search button { width: 12%; color: #cc4e46; background-repeat: no-repeat; background-position: 2px 7px; }
 .search button span[data-icon]::before { color: #cc4e46; }
 @media (min-width: 37.5em) { .search { width: 70%; } }

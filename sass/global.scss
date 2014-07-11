@@ -186,8 +186,13 @@ code  a[href^=http] {
 
 header .search {
 		float:left;
-		width: 100%%;
-		@include breakpoint(phablet){width:70%;}
+		width: 100%;
+		@include breakpoint(phablet){
+			width:44%;
+			position: absolute;
+			right: 0;
+			top: 45px;
+		}
 	}
 .advanced-rwd .search {
 	float:left;
@@ -197,7 +202,7 @@ header .search {
 	padding: 0.25em 0 0.25em 0.7em;
 	font-family: $roboto;
 			input {
-				width: 85%;
+				width: 75%;
 				border-right: 1px solid #a38a89;
 						@include rounded(top-right, 0px);
 						@include rounded(bottom-right, 0px);
