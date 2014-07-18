@@ -212,8 +212,8 @@ header .search {
 				color:$red;
 				background-repeat: no-repeat;
 				background-position: 2px 7px;
+				@include breakpoint(tablet){width:20%;}
 				span[data-icon]::before {color:$red;}
-
 			}
 	@include breakpoint(phablet){width:70%;}
 }
