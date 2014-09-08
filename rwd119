@@ -1,0 +1,85 @@
+The New Yorker
+http://ami.responsivedesign.is/?url=http://www.newyorker.com/
+
+
+
+
+
+
+
+The Principles of Adaptive Design | Brad Frost Web
+http://bradfrostweb.com/blog/post/the-principles-of-adaptive-design/
+Brad's article shows us how we've evolved past the responsive design of fluid grids, flexible media and media queries and are tackling the issues below the tip of the iceberg. He looks at five guiding principals of Ubiquity, Flexibility, Performance, Enhancement, and Future-Friendly(link to shirt).
+
+
+Responsive Images: Use Cases and Documented Code Snippets
+http://dev.opera.com/articles/responsive-images/
+A tremendously detailed article outlining the use cases for responsive images with code snippets ready to get you going. Opera cover of the 4 use cases with an example of every combination of them.
+
+
+
+
+
+
+You May Be Losing Users If Responsive Web Design Is Your Only Mobile Strategy
+http://www.smashingmagazine.com/2014/07/22/responsive-web-design-should-not-be-your-only-mobile-strategy/
+It's good to see more people in the community trying to move beyond the original concepts of responsive design and focus more upon what is best for the user (performance being one of those things). As with most articles you should take them with a grain of salt, for instance I disagree with the suggestion of replacing media queries with JS matchMedia to load in the CSS required and there seems to be a poor out of context use of a quote. Still, the basic concept of the article to look beyond RWD and find ways to make the web faster is absolutely what we should be aiming for.
+
+Fixed and inflexible
+http://blog.cloudfour.com/fixed-and-inflexible/
+The increasing number of websites that are putting a position:fixed; sticky banner to the top of the page to promote the app version of the same content is growing. Aside from being plain frustrating there are other issues associated with this design pattern
+
+The median top 100 ecommerce page takes 6.2 seconds to render primary content
+http://www.webperformancetoday.com/2014/07/23/summer2014-ecommerce-page-speed-web-performance/
+Pages are getting bigger, pages are getting slower. What's worse is that for the majority of the sites featured in this study there are basic things at no cost they could be doing to improve the performance of their sites.
+
+A Look At The Current Responsive Design Landscape (And How To Speed It Up)
+http://sideproject.io/a-look-at-the-current-responsive-design-landscape/
+This article looks at a few recently launched responsive sites and how well they perform. It's not necessarily about the final page load time, but the perceived load time and the time it takes for your users to begin consuming content or engaging with your site.
+
+Responsive Logos
+http://responsivelogos.co.uk/
+Joe Harrison has taken a look at how logos from some of the well known brands might respond across a variety of viewports. A great experiment but I think a better answer lies with creating a design system as they did for the Whitney Museum logo (http://whitney.org/NewIdentity),
+
+
+======================
+
+TOOLS & RESOURCES
+
+A Compendium of SVG Information | CSS-Tricks
+http://css-tricks.com/mega-list-svg-information/
+What's that I hear you say? You're looking for some information about SVG? Let me show you this way.
+
+Concise.CSS / A better front-end framework.
+http://concisecss.com/
+A small semantic responsive framework without the kitchen sink.
+
+Naver
+http://formstone.it/components/naver
+A jQuery plugin for responsive navigation.
+
+Load CSS or JS Files Simply & Asynchronously
+http://filamentgroup.com/lab/load-css-and-js.html
+If you're looking to speed up your site then asynchronous loading can certainly help. Wouldn't you know it, but Filament Group have got something for that.
+
+Macaw v1.5
+http://macaw.co/onefive/
+For those of you that are using, or have taken a look at browser based design tools you should check out the latest release of Macaw, 1.5. The discount sale ends today so be quick.
+
+
+Flexible Grid System
+http://flexible.gs/
+I really liked this site and the way the grid system was explained. It also has a neat responsive preview of the grid and you can load your own site to preview too. The framework isn't super practical just yet at 325kb minified, but the author is working on that.
+
+WORKSHOPS
+
+Responsive Typography | Frontend Masters
+http://frontendmasters.com/workshops/responsive-typography/
+Learn from the author of "Responsive Typography"(http://bit.ly/rwtbook) book from O'Reilly in this one day workshop on responsive typography. If you can't make it in person, they're also providing live full HD online access too.
+
+
+FINALLY
+
+Future Friendly by Brad Frost
+https://cottonbureau.com/products/future-friendly
+Brad Frost has put this Future Friendly shirt up on Cotton Bureau and all the proceeds are going to Archive.org — a worthy cause for backing up the web.
